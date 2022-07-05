@@ -20,7 +20,23 @@ String
 Com aspas triplas você define uma string com várias linhas
 
 ```
-string = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis fermentum magna, quis aliquet leo eleifend quis."""
+string = """Lorem ipsum dolor sit amet,\n consectetur adipiscing elit. Cras venenatis fermentum magna, quis aliquet leo eleifend quis."""
  
 ```
 
+
+Algumas funções de Python
+
+help - usado para exibir a documentação de módulos, funções, classes, palavras-chave, etc.
+
+Ex:
+```
+help(str)
+```
+
+dir - retorna uma lista dos atributos e métodos de qualquer objeto
+
+Ex:
+```
+dir(str)
+```
