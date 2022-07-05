@@ -35,6 +35,16 @@ print(hash("aaa"))
 -145432768704
 ```
 
+Compreensão de listas
+
+Syntax
+
+newlist = [expression 'for' item 'in' iterable 'if' condition == 'True']
+
+Ex:
+```
+lista = [i * i for in range(10) if i%2 == 0]
+```
 
 Algumas funções de Python
 
