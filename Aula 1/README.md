@@ -48,6 +48,24 @@ lista = [i * i for in range(10) if i%2 == 0]
 
 Algumas funções de Python
 
+map() - função que executa uma especifica função para cada item em uma interação. Os itens são mandados para a função como parametro
+
+Syntax
+
+map(function, iterables)
+
+Ex:
+```
+def myfunc(n):
+    return len(n)
+
+x = map(myfunc,('apple','banana','cherry'))
+
+[5, 6, 6]
+```
+
++ Algumas funções de Python
+
 help - usado para exibir a documentação de módulos, funções, classes, palavras-chave, etc.
 
 Ex:
