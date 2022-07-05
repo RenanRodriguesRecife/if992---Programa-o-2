@@ -90,6 +90,26 @@ for x in adults:
 32
 ```
 
+zip() - retorna um objeto zip, que é um iterador de tuplas onde o primeiro item em cada iterador passado é emparelhado e, em seguida, o segundo item em cada iterador passado é emparelhado etc.
+
+Se os iteradores passados tiverem comprimentos diferentes, o iterador com menos itens decide o comprimento do novo iterador.
+
+Syntax
+
+zip(iterator1, iterator2, iterator3...)
+
+EX:
+```
+a = ("John", "Charles", "Mike")
+b = ("Jenny", "Christy", "Monica")
+
+x = zip(a, b)
+
+print(tuple(x))
+
+(('John', 'Jenny'), ('Charles', 'Christy'), ('Mike', 'Monica'))
+```
+
 + Algumas funções de Python
 
 help - usado para exibir a documentação de módulos, funções, classes, palavras-chave, etc.
