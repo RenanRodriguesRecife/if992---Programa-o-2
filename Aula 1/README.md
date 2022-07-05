@@ -121,6 +121,26 @@ EX:
     <type 'int'>
 ```
 
+isinstance() - retorna True se específico objeto é de um tipo específico, se não retorna False. (se o parâmetro de tipo for uma tupla, esta função retornará True se o objeto for um dos tipo da tupla)
+
+Ex1: 
+```
+x = isinstance(5, int)
+
+print(x)
+
+True
+```
+
+Ex2: 
+```
+x = isinstance("Hello", (str, float, int, str, list, dict, tuple))
+
+print(x)
+
+True
+```
+
 + Algumas funções de Python
 
 help - usado para exibir a documentação de módulos, funções, classes, palavras-chave, etc.
