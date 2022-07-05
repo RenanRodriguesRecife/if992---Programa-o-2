@@ -5,5 +5,11 @@ print(type(1))
 '<type 'int'>'
 ```
 
+Cada comando de python devem ser escritos em uma linha
+Obs: Em python pode pular uma linha usando '\'
 
-Obs: Em python 
+```
+    varlor = \
+    4300.6
+```
+
