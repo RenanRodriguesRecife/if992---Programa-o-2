@@ -110,6 +110,15 @@ print(tuple(x))
 (('John', 'Jenny'), ('Charles', 'Christy'), ('Mike', 'Monica'))
 ```
 
+type() - retorna o tipo de um objeto específico
+
+EX:
+```
+    c = 33
+
+    print(type(c))
+```
+
 + Algumas funções de Python
 
 help - usado para exibir a documentação de módulos, funções, classes, palavras-chave, etc.
