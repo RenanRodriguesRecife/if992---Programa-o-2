@@ -64,6 +64,32 @@ x = map(myfunc,('apple','banana','cherry'))
 [5, 6, 6]
 ```
 
+filter() - a função retorna um iterador onde os itens são filtrados por meio de uma função para testar se o item é aceito ou não.
+
+Syntax
+
+filter(function, iterable)
+
+Ex:
+```
+ages = [5, 12, 17, 18, 24, 32]
+
+def myFunc(x):
+    if x < 18:
+        return False
+    else:
+        return True
+
+adults = filter(myFunc, ages)
+
+for x in adults:
+    print(x)
+
+18
+24
+32
+```
+
 + Algumas funções de Python
 
 help - usado para exibir a documentação de módulos, funções, classes, palavras-chave, etc.
