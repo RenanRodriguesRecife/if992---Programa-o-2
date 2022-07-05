@@ -20,12 +20,19 @@ String
 Com aspas triplas você define uma string com várias linhas
 
 ```
-
 string = """Lorem ipsum dolor sit
             amet, consectetur
             adipiscing elit. Cras
             venenatis fermentum magna,
             quis aliquet leo eleifend quis."""
+```
+
+
+Imprime o valor hash de objeto
+(lembrando em python tudo é objeto)
+```
+print(hash("aaa"))
+-145432768704
 ```
 
 
