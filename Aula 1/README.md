@@ -117,6 +117,8 @@ EX:
     c = 33
 
     print(type(c))
+
+    <type 'int'>
 ```
 
 + Algumas funções de Python
