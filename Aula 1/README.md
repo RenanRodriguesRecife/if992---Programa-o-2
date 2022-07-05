@@ -1,3 +1,5 @@
+Algumas coisas básicas de Python
+
 Nessa disciplina foi escolhido Python como linguagem porque em python tudo é classe (inclusive class)
 
 ```
@@ -11,5 +13,14 @@ Obs: Em python pode pular uma linha usando '\'
 ```
     varlor = \
     4300.6
+```
+
+String
+
+Com aspas triplas você define uma string com várias linhas
+
+```
+string = """Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis fermentum magna, quis aliquet leo eleifend quis."""
+ 
 ```
 
