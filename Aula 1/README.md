@@ -46,6 +46,23 @@ Ex:
 lista = [i * i for in range(10) if i%2 == 0]
 ```
 
+Função anônima (lambda)
+
+Syntax
+
+lambda arguments : expression
+
+Ex1:
+```
+x = lambda a : a + 10
+```
+
+Ex2 (com condicional):
+```
+x = lambda x, y: x + y if x + y <=0 else x * y
+```
+
+
 Algumas funções de Python
 
 map() - função que executa uma especifica função para cada item em uma interação. Os itens são mandados para a função como parametro
