@@ -19,3 +19,14 @@ Data as listas L1 e L2 definidas abaixo, crie um código que calcule o quadrado 
 
 ```
 Exercício 3
+Crie uma função segundo_lugar que receba dois argumentos: uma lista de notas, contendo todas as notas de uma turma e uma lista de nomes, contendo os nomes dos alunos.
+notas e nomes estão na mesma organização, ou seja, notas[0] representa a nota do aluno nomes[0]
+Sua função deve retornar a nota e o nome do aluno com a segunda maior nota.
+Teste com o seguinte exemplo:
+
+- nome = ['joão','maria','carlos','eduarda','eduardo']
+- notas = [10,10,6,8,7]
+
+```
+
+```
