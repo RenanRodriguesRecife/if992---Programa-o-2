@@ -29,7 +29,14 @@ def func(l1, l2):
             print((x[0] + x[1])**2)
 
 func(l1,l2)
+
+ou
+
+ex2 = list(map(lambda x: (x[0] + x[1])**2 ,filter(lambda x: (x[0] + x[1])%2 ==1,zip(l1,l2))))
+
+print(ex2)    
 ```
+
 Exercício 3
 Crie uma função segundo_lugar que receba dois argumentos: uma lista de notas, contendo todas as notas de uma turma e uma lista de nomes, contendo os nomes dos alunos.
 notas e nomes estão na mesma organização, ou seja, notas[0] representa a nota do aluno nomes[0]
