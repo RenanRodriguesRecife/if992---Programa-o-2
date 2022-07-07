@@ -47,5 +47,14 @@ Teste com o seguinte exemplo:
 - notas = [10,10,6,8,7]
 
 ```
+nome = ['joão','maria','carlos','eduarda','eduardo']
+notas = [10,10,6,8,7]
+
+def segundo_lugar(notas, nomes):
+    segunda_maior_nota = sorted(list(set(notas)))[-2] #set só vai ter uma vez cada valor
+    indice = notas.index(segunda_maior_nota)
+    return notas[indice],nomes[indice]
+
+print(segundo_lugar(notas, nome))
 
 ```
