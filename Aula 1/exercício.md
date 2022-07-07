@@ -8,7 +8,7 @@ valor inteiro n e retorne os n primeiros números primos, a partir de 1.
 Números primos são números divisíveis apenas por 1 e eles mesmos.
 
 
-<code>
+```
 def listPrimos(num):
 
     for n in range(num):
@@ -22,4 +22,4 @@ def listPrimos(num):
 
 
 listPrimos(10)
-</code>
+```
