@@ -114,5 +114,19 @@ O estereótipo <<inclui>> é adicionado à relação.
 
 <img src=".assets/inclusão.JPG">
 
+#### Relacionamento de Extensão
+
+Relacionamentos de extensão ocorrem exclusivamente entre casos de uso. E representam sequências de interações que podem existir em um caso de uso.
+
+Se o Caso de Uso A estende o Caso de Uso B, os passos existentes em B são passos opcionais em A.
+
+Em UML são representados por linhas traçadas com uma seta na direção do Caso de Uso extensor.
+
+O estereótipo <<estende>> é adicionado à relação.
+
+<img src=".assets/extensao.JPG">
+
+#### Relacionamento de 
+
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
 
