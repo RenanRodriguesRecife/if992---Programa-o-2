@@ -104,8 +104,15 @@ A UML define quatro tipos de relacionamentos:
 
 #### Relacionamento de Inclusão
 
+Relacionamentos de inclusão ocorrem exclusivamente entre casos de uso. E representam sequências de interações compartilhadas.
 
+Se o Caso de Uso A inclui o Caso de Uso B, os passos existentes em B são passos obrigatórios em A.
 
+Em UML são representados por linhas traçadas com uma seta na direção do Caso de Uso incluído.
+
+O estereótipo <<inclui>> é adicionado à relação.
+
+<img src=".assets/inclusão.JPG">
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
 
