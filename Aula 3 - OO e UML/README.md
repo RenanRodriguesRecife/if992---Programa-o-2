@@ -7,7 +7,7 @@ Softwares se tornam mais difíceis de criar conforme seus escopos crescem. O par
 
 A Linguagem de Modelagem Unificada é uma metodologia visual para projetar sistemas OO. Cada conceito de OO possui uma representação gráfica, uma sintaxe e uma semântica.
 
-<img src=".assets/equivalencia em classe e uml.JPG"/>
+<img src="/.assets/equivalencia em classe e uml.JPG"/>
 
 O JAVA é baseado em UML. Você pode simplismente criar o diagrama em UML colocar em programa que irá convertar em código java.
 
@@ -50,7 +50,7 @@ O Cliente chega ao caixa eletrônico e insere seu cartão. O Sistema requisita a
 
 Divide o caso de uso em usuário e como o sistema responde
 
-<img src=".assets/parcionado.JPG"/>
+<img src="/.assets/parcionado.JPG"/>
 
 
 Esses exemplos representam um cenário, ou seja, uma descrição de como o caso de uso pode ser realizado. Na realidade costuma haver diversos cenários para cada caso de uso.
@@ -63,7 +63,7 @@ E se o cliente errar a senha?
 
 Um caso de uso é representado por uma elipse com seu nome posicionado abaixo ou dentro desta.
 
-<img src=".assets/caso de uso.JPG">
+<img src="/.assets/caso de uso.JPG">
 
 
 ### Atores
@@ -72,12 +72,12 @@ Atores são agentes que interagem com o sistema. De forma mais abstrata, são pa
 
 Ou seja, uma mesma pessoa pode atuar como atores diferentes dependendo do seu papel em relação ao sistema.
 
-<img src=".assets/atores.JPG">
+<img src="/.assets/atores.JPG">
 
 
 Em UML atores são representados por um boneco, com o nome do ato abaixo deste. Atores podem ser primários ou secundários.
 
-<img src=".assets/d_atores.JPG>
+<img src="/.assets/d_atores.JPG>
 
 Atores primários são os que dão início a uma sequência de interações de um caso de uso.
 
@@ -89,7 +89,7 @@ As interações entre Casos de Uso e Atores (e entre Casos de Uso) são chamadas
 
 Em UML são representados por linhas contínuas.
 
-<img src=".assets/rela.JPG">
+<img src="/.assets/rela.JPG">
 
 
 A UML define quatro tipos de relacionamentos:
@@ -112,7 +112,7 @@ Em UML são representados por linhas traçadas com uma seta na direção do Caso
 
 O estereótipo <<inclui>> é adicionado à relação.
 
-<img src=".assets/inclusão.JPG">
+<img src="/.assets/inclusão.JPG">
 
 #### Relacionamento de Extensão
 
@@ -124,7 +124,7 @@ Em UML são representados por linhas traçadas com uma seta na direção do Caso
 
 O estereótipo <<estende>> é adicionado à relação.
 
-<img src=".assets/extensao.JPG">
+<img src="/.assets/extensao.JPG">
 
 #### Relacionamento de Generalização (Herança)
 
@@ -136,5 +136,5 @@ Se a herança ocorre entre casos de uso, A é um caso especial de B, onde o comp
 
 Em UML são representados por linhas contínuas com uma seta na direção do Caso de Uso herdado.
 
-<img src=".assets/heranca.JPG">
+<img src="/.assets/heranca.JPG">
 
