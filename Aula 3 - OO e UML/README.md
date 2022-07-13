@@ -102,6 +102,7 @@ A UML define quatro tipos de relacionamentos:
 
 - Generalização (herança) (pode ocorrer tanto entre atores como em caso de uso)
 
+#### Relacionamento de Inclusão
 
 
 
