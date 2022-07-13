@@ -89,7 +89,7 @@ As interações entre Casos de Uso e Atores (e entre Casos de Uso) são chamadas
 
 Em UML são representados por linhas contínuas.
 
-<img src="/.assets/rela.JPG">
+<img src="/.assets/d_atores.JPG">
 
 
 A UML define quatro tipos de relacionamentos:
@@ -136,5 +136,5 @@ Se a herança ocorre entre casos de uso, A é um caso especial de B, onde o comp
 
 Em UML são representados por linhas contínuas com uma seta na direção do Caso de Uso herdado.
 
-<img src="/.assets/heranca.JPG">
+<img src="/.assets/heranca.jpg">
 
