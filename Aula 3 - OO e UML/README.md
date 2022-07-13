@@ -66,3 +66,45 @@ Um caso de uso é representado por uma elipse com seu nome posicionado abaixo ou
 <img src=".assets/caso de uso.JPG">
 
 
+### Atores
+
+Atores são agentes que interagem com o sistema. De forma mais abstrata, são papéis.
+
+Ou seja, uma mesma pessoa pode atuar como atores diferentes dependendo do seu papel em relação ao sistema.
+
+<img src=".assets/atores.JPG">
+
+
+Em UML atores são representados por um boneco, com o nome do ato abaixo deste. Atores podem ser primários ou secundários.
+
+<img src=".assets/d_atores.JPG>
+
+Atores primários são os que dão início a uma sequência de interações de um caso de uso.
+
+Atores secundários interagem com o sistema para possibilitar a conclusão do objetivo do ator primário
+
+### Relacionamentos
+
+As interações entre Casos de Uso e Atores (e entre Casos de Uso) são chamadas relacionamentos.
+
+Em UML são representados por linhas contínuas.
+
+<img src=".assets/rela.JPG">
+
+
+A UML define quatro tipos de relacionamentos:
+
+- Comunicação (caso de uso está sendo iniciado por um ator)
+
+- Inclusão (um caso de uso está acontecendo dentro de outro caso de uso)(está dizendo que dentro do caso de uso obrigatoriamente o caso de uso interno deve ser chamado)
+
+- Extensão (são casos de uso opcionais caso um caso de uso seja chamado)
+
+- Generalização (herança) (pode ocorrer tanto entre atores como em caso de uso)
+
+
+
+
+
+Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
+
