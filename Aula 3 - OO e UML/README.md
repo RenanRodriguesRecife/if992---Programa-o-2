@@ -126,7 +126,15 @@ O estereótipo <<estende>> é adicionado à relação.
 
 <img src=".assets/extensao.JPG">
 
-#### Relacionamento de 
+#### Relacionamento de Generalização (Herança)
 
-Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
+Relacionamentos de extensão ocorrem entre dois casos de usos ou dois atores. E representam uma reutilização óbvia de comportamento.
+
+Se um ator A herda de um ator B, o ator A possui os mesmo relacionamentos que o ator B e mais os seus próprios..
+
+Se a herança ocorre entre casos de uso, A é um caso especial de B, onde o comportamento é modificado.
+
+Em UML são representados por linhas contínuas com uma seta na direção do Caso de Uso herdado.
+
+<img src=".assets/heranca.JPG">
 
