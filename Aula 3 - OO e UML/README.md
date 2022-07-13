@@ -3,7 +3,7 @@
 Softwares se tornam mais difíceis de criar conforme seus escopos crescem. O paradigma OO facilita a construção criando agentes autónomos.
 
 
-# Unified Modelling Language (UML)
+### Unified Modelling Language (UML)
 
 A Linguagem de Modelagem Unificada é uma metodologia visual para projetar sistemas OO. Cada conceito de OO possui uma representação gráfica, uma sintaxe e uma semântica.
 
@@ -12,7 +12,7 @@ A Linguagem de Modelagem Unificada é uma metodologia visual para projetar siste
 O JAVA é baseado em UML. Você pode simplismente criar o diagrama em UML colocar em programa que irá convertar em código java.
 
 
-# Casos de Uso
+### Casos de Uso
 
 Casos de Uso são representações das funcionalidades externas observáveis no sistema.
 
@@ -61,4 +61,8 @@ E se o cliente errar a senha?
 
 -- Representação no diagrama
 
-A 
+Um caso de uso é representado por uma elipse com seu nome posicionado abaixo ou dentro desta.
+
+<img src=".assets/caso de uso.JPG">
+
+
