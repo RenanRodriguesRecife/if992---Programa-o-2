@@ -80,7 +80,7 @@ Ou seja, uma mesma pessoa pode atuar como atores diferentes dependendo do seu pa
 
 Em UML atores são representados por um boneco, com o nome do ato abaixo deste. Atores podem ser primários ou secundários.
 
-<img src="/.assets/d_atores.JPG>
+<img src="/.assets/d_atores.JPG">
 
 Atores primários são os que dão início a uma sequência de interações de um caso de uso.
 
