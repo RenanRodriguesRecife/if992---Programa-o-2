@@ -18,6 +18,7 @@ Casos de Uso são representações das funcionalidades externas observáveis no 
 
 O Diagrama de Casos de Uso vai modelar os requisitos funcionais do nosso sistema
 
+```
 - Requisito Funcional (Está relacionado ao motivo real do software existir)
 
 Ex: Consulta de Saldo ou estoque
@@ -25,6 +26,8 @@ Ex: Consulta de Saldo ou estoque
 - Requisito não Funcional (Não está relacionado ao motivo do software existir)
 
 Ex: O tamanho pode ser medido em kbytes e número de Chip de RAM.
+
+```
 
 -- Formatos Casos de Uso
 
