@@ -9,7 +9,7 @@ A Linguagem de Modelagem Unificada é uma metodologia visual para projetar siste
 
 <img src="/.assets/equivalencia em classe e uml.JPG"/>
 
-O JAVA é baseado em UML. Você pode simplismente criar o diagrama em UML colocar em programa que irá convertar em código java.
+O JAVA é baseado em UML. Você pode simplismente criar o diagrama em UML colocar em um programa que irá convertar em código java.
 
 
 ### Casos de Uso
