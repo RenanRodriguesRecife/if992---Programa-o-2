@@ -62,7 +62,7 @@ E se o caixa não tiver dinheiro suficiente?
 
 E se o cliente errar a senha?
 
--- Representação no diagrama
+## Representação no diagrama
 
 Um caso de uso é representado por uma elipse com seu nome posicionado abaixo ou dentro desta.
 
