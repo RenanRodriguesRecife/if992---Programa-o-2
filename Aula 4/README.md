@@ -170,4 +170,11 @@ Associações Ternárias são usadas quando precisamos associar objetos de três
 
 <img src="../.assets/assoter2.jpg">
 
+### Relacioanemtos - Associações Reflexivas
+
+Associações Reflexivas ou auto-associações relaciona objetos de uma mesma classe. Onde objetos de uma classe possuem papéis distintos.
+Uso de papéis é importante para evitar ambiguidade.
+
+<img src="../.assets/assorefl.jpg">
+
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
