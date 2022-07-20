@@ -259,4 +259,27 @@ Divisão de Responsabilidades facilita as eventuais modificações no sistema, t
 
 <img src="../.assets/indeclassinit2.JPG">
 
+### Identificando Classes
 
+É realizada a análise dos casos de uso e todos os seus fluxos.
+
+- Na descrição textual, são destacados os substantivos e locuções equivalentes a substantivos;
+
+- Sinónimos são removidos;
+
+- Os nomes permanecentes correspondem às classes.
+
+- Substantivos relacionados a atores aos quais o sistema não precise armazenar informações devem ser removidos;
+
+- Responsabilidade de fazer são os verbos, a classe responsável costuma ser o sujeito ao qual o verbo está ligado;
+
+- Responsabilidade de conhecer e colaborações são as informações adicionais do caso de uso.
+
+
+Propriedades:
+
+- atributos guardam valores atômicos;
+
+- não possuem estrutura interna (modelar como classe);
+
+- aplica-se a todos os objetos de uma classe.
