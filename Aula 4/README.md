@@ -168,4 +168,6 @@ Associações Ternárias são usadas quando precisamos associar objetos de três
 
 <img src="../.assets/assoter.jpg">
 
+<img src="../.assets/assoter2.jpg">
+
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
