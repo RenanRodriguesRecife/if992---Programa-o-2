@@ -126,5 +126,26 @@ Papéis são posicionados em cada extremo da linha de associação, indicando o 
 
 <img src="../.assets/n_associacao2.JPG">
 
+### Relacioanemtos - Agregação
+
+Agregação é um tipo especial de associação, representa relação todo-parte.
+
+Diferença é semântica! Na agregação um objeto está contido dentro do outro.
+
+- Assimétrico. Se um objeto A é parte do objeto B, B não pode ser parte de A.
+
+- Agregações propagam comportamento.
+
+Sejam duas classes X e Y. Podemos verificar se X agrega Y respondendo as seguintes perguntas:
+
+- X tem um ou mais Y?
+
+- Y é parte de X?
+
+No diagrama de classes, representamos agregações como uma linha com um diamante (losango) branco perto da classe do todo.
+
+<img src="../.assets/exagregacao.JPG">
+
+
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
