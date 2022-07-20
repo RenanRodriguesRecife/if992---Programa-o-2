@@ -177,4 +177,32 @@ Uso de papéis é importante para evitar ambiguidade.
 
 <img src="../.assets/assorefl.jpg">
 
-Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
+## Interpretadas
+
+### Identificando Classes Iniciais
+
+Identificar classes candidatas e remover classes desnecessárias. Processo não sequencial.
+
+Identificar classes a partir de seus comportamentos relevantes para o sistema. De forma a cumprir suas responsabilidades.
+
+Responsabilidades são tudo que um objeto conhece ou faz (só ou com ajuda).
+
+- Objeto Cliente conhece seu nome, endereço e telefone.
+
+- Objeto Pedido conhece sua data de realização e deve ser capaz de calcular seu valor total.
+
+Existem casos onde a responsabilidade não pode ser cumprida pelo objeto sozinho. Nesses casos, o objeto requisita colaborações.
+
+- Fatura de um pedido é solicitada.
+
+- Objeto Pedido tem responsabilidade de fornecer seu valor total.
+
+- Objeto Cliente tem responsabilidade de fornecer seu nome.
+
+- Objeto ItemPedido fornece quantidade do produto e subtotal.
+
+- Objetos Produto fornecem nome e valor unitário.
+
+Colaborações são nossos Relacionamentos.
+
+<img src="../.assets/indenticlassini.JPG">
