@@ -253,3 +253,10 @@ Objetos de Controle:
 - Conhecer: valores acumulados ou derivados durante a realização do caso de uso;
 
 - Fazer: realizar monitorações, coordenar realização de caso de uso, assegurar regras do negócio, coordenação criação de associações entre objetos de entidade.
+
+
+Divisão de Responsabilidades facilita as eventuais modificações no sistema, tornando-as mais localizadas.
+
+<img src="../.assets/indeclassinit2.JPG">
+
+
