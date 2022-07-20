@@ -90,5 +90,22 @@ Associações podem ser separadas em três grandes grupo: “um para um”, “u
 
 <img src="../.assets/conectividade.jpg">
 
+Exemplos:
+
+
+<img src="../.assets/ex1.jpg">
+
+Um empregado pode gerenciar 0 ou 1 departamento, um departamento pode ser gerenciado por 1 empregado.
+
+
+<img src="../.assets/ex2.jpg">
+
+Um empregado pode atua em 1 departamento, um departamento possui 0 ou mais empregados.
+
+
+<img src="../.assets/ex3.jpg">
+
+Um empregado está associado a 1 ou mais projetos, Um projeto possui 0 ou mais empregados.
+
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
