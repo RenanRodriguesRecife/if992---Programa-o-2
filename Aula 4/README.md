@@ -175,7 +175,7 @@ Associações Ternárias são usadas quando precisamos associar objetos de três
 Associações Reflexivas ou auto-associações relaciona objetos de uma mesma classe. Onde objetos de uma classe possuem papéis distintos.
 Uso de papéis é importante para evitar ambiguidade.
 
-<img src="../.assets/assorefl.jpg">
+<img src="../.assets/associrefl.JPG">
 
 ## Interpretadas
 
