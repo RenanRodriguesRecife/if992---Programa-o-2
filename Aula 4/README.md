@@ -70,11 +70,11 @@ Exemplos:
 
 Vendas: um cliente compra produtos
 
-<img src="../.assets/classes.jpg">
+<img src="../.assets/clienteproduto.jpg">
 
 Bancário: uma conta-corrente possui um histórico de transações.
 
-<img src="../.assets/classes.jpg">
+<img src="../.assets/contahist.jpg">
 
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
