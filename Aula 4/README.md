@@ -107,5 +107,13 @@ Um empregado pode atua em 1 departamento, um departamento possui 0 ou mais empre
 
 Um empregado está associado a 1 ou mais projetos, Um projeto possui 0 ou mais empregados.
 
+Participação:
+
+Obrigatória, caso multiplicidade mínima seja 1.
+
+Opcional, caso multiplicidade mínima seja 0.
+
+
+
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
