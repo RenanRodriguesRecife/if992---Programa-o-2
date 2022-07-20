@@ -124,6 +124,7 @@ Papéis são posicionados em cada extremo da linha de associação, indicando o 
 
 <img src="../.assets/n_associacao.JPG">
 
+<img src="../.assets/n_associacao2.JPG">
 
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
