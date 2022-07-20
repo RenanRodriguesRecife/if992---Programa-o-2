@@ -1,0 +1,3 @@
+Exercício
+
+Pacotes são enviados de uma localidade a outra. Pacotes têm um peso específico. Localidades são caracterizadas pelas facilidades de transporte (por exemplo, rodoviárias, aeroportos e auto-estradas). Algumas localidades são vizinhas, isto é, existe uma rota direta de transporte entre tais localidades. A rota entre as localidades tem um certo comprimento (a distância entre as localidades). Trens, aviões e caminhões são usados para o transporte de pacotes. Cada um destes meios de transporte pode suportar uma carga máxima de peso. A cada momento, durante o seu transporte, é necessário saber a posição (localidade) de cada pacote. Também é necessário manter o controle de que meio de transporte está sendo utilizado em cada parte da rota para um certo pacote.
