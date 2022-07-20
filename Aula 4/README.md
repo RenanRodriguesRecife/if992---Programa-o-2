@@ -82,4 +82,8 @@ Associações podem também informar os limites inferiores e superiores de quant
 
 <img src="../.assets/tabmult.jpg">
 
+Exemplos de Multiplicidade:
+
+<img src="../.assets/exmulti.jpg">
+
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
