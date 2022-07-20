@@ -206,3 +206,50 @@ Existem casos onde a responsabilidade não pode ser cumprida pelo objeto sozinho
 Colaborações são nossos Relacionamentos.
 
 <img src="../.assets/indenticlassini.JPG">
+
+Objetos de Entidade:
+
+- Representam conceitos do negócio;
+
+- Costumam armazenar informações persistentes do sistema;
+
+- Atores do sistema não possuem acesso direto a objetos de entidade, apenas por meio de comunicação com outros objetos;
+
+- Participam de muitos casos de uso e possuem ciclo de vida longo;
+
+- Conhecer fácil de identificar, normalmente fornecido por atores;
+
+- Fazer: fornecer valores de atributos, realizar cálculos simples, criar/destruir objetos partes.
+
+
+Objetos de Fronteira:
+
+- Utilizados para comunicação do sistema com os atores;
+
+- Traduzem eventos gerados por um ator em relevantes ao sistema;
+
+- E apresentam resultados internos do sistema para atores;
+
+- Pode se comunicar com humanos, outros sistemas ou dispositivos atrelados ao sistema;
+
+- Conhecer informações manipulados por meio de interface;
+
+- Fazer notificações à objetos de controle sobre eventos gerados externamente e notificações aos atores sobre interações internas.
+
+- Identificação inicial ignora comportamentos, considera apenas informações.
+
+
+
+Objetos de Controle:
+
+- Ponte de comunicação entre objetos de fronteira e objetos de entidade;
+
+- Controlam lógica de execução de um caso de uso;
+
+- Decidem curso de ação após evento externo;
+
+- Propagam requisições de operações para objetos relacionados;
+
+- Conhecer: valores acumulados ou derivados durante a realização do caso de uso;
+
+- Fazer: realizar monitorações, coordenar realização de caso de uso, assegurar regras do negócio, coordenação criação de associações entre objetos de entidade.
