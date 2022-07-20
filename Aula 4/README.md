@@ -76,5 +76,10 @@ Bancário: uma conta-corrente possui um histórico de transações.
 
 <img src="../.assets/contahist.jpg">
 
+Associações são entre classes, mas representam ligações possíveis entre objetos.
+
+Associações podem também informar os limites inferiores e superiores de quantidade de objetos. Em UML, chamamos de Multiplicidade. Os valores são mostrados em cada extremo da linha de associação.
+
+<img src="../.assets/tabmult.jpg">
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
