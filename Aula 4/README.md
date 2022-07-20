@@ -86,4 +86,9 @@ Exemplos de Multiplicidade:
 
 <img src="../.assets/exmulti.jpg">
 
+Associações podem ser separadas em três grandes grupo: “um para um”, “um para muitos”, e “muitos para muitos”. Esses grupos refletem a Conectividade das classes.
+
+<img src="../.assets/conectividade.jpg">
+
+
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
