@@ -160,5 +160,12 @@ No entanto, a classe associativa estará ligada por uma linha tracejada à uma a
 
 <img src="../.assets/esclasasso2.jpg">
 
+###  Relacioanemtos - Associações Ternárias 
+
+Associações Ternárias são usadas quando precisamos associar objetos de três classes diferentes.
+
+É possível ter associações ternárias e classes associativas em conjunto.
+
+<img src="../.assets/assoter.jpg">
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
