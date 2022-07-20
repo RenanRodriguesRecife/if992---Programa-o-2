@@ -49,7 +49,7 @@ Classes são uma representação abstrata de um conjunto de objetos que comparti
 - Um compartimento com os atributos da classe;
 - Um compartimento com as operações da classe.
 
-<img src="./.assets/classes.jpg">
+<img src="../.assets/classes.jpg">
 
 Atributos: representam a descrição dos dados armazenados pelos objetos de uma classe. Podem incluir possíveis valores (tipagem).
 
