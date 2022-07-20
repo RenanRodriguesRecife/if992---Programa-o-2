@@ -166,9 +166,9 @@ Associações Ternárias são usadas quando precisamos associar objetos de três
 
 É possível ter associações ternárias e classes associativas em conjunto.
 
-<img src="../.assets/assoter.jpg">
+<img src="../.assets/assoter.JPG">
 
-<img src="../.assets/assoter2.jpg">
+<img src="../.assets/assoter2.JPG">
 
 ### Relacioanemtos - Associações Reflexivas
 
