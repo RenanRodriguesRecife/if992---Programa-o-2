@@ -114,6 +114,16 @@ Obrigatória, caso multiplicidade mínima seja 1.
 Opcional, caso multiplicidade mínima seja 0.
 
 
+Recurso da Associação: características do diagrama para facilitar entendimento da relação.
+
+Nome da Associação é escrita na linha, ao meio do caminho entre as duas classes.
+
+Direção de Leitura, representada por um pequeno triângulo em um dos lados do nome de associação.
+
+Papéis são posicionados em cada extremo da linha de associação, indicando o papel de cada classe nesta.
+
+<img src="../.assets/n_associacao.JPG">
+
 
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
