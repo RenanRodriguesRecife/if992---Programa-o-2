@@ -60,9 +60,21 @@ Operações: correspondem às ações que os objetos de uma classe sabem realiza
 - somar (valor1, valor2): Float
 
 
-### Classes
+### Relacionamentos
 
+Para representar que objetos/instâncias podem se relacionar durante a execução do sistema, utilizamos a associação.
 
+- No diagrama, utilizamos uma linha reta entre classes para mostrar associações.
+
+Exemplos:
+
+Vendas: um cliente compra produtos
+
+<img src="../.assets/classes.jpg">
+
+Bancário: uma conta-corrente possui um histórico de transações.
+
+<img src="../.assets/classes.jpg">
 
 
 Quando existe uma relação entre duas classes quer dizer que uma contem atributo da outra
