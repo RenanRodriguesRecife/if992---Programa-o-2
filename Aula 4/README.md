@@ -107,11 +107,11 @@ Um empregado pode atua em 1 departamento, um departamento possui 0 ou mais empre
 
 Um empregado está associado a 1 ou mais projetos, Um projeto possui 0 ou mais empregados.
 
-Participação:
+**Participação**:
 
-Obrigatória, caso multiplicidade mínima seja 1.
+**Obrigatória**, caso multiplicidade mínima seja 1.
 
-Opcional, caso multiplicidade mínima seja 0.
+**Opcional**, caso multiplicidade mínima seja 0.
 
 
 Recurso da Associação: características do diagrama para facilitar entendimento da relação.
