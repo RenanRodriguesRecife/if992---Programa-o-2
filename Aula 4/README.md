@@ -182,9 +182,9 @@ Uso de papéis é importante para evitar ambiguidade.
 
 ### Identificando Classes Iniciais
 
-Identificar classes candidatas e remover classes desnecessárias. Processo não sequencial.
+Identificar classes candidatas e remover classes desnecessárias. Processo **não** sequencial.
 
-Identificar classes a partir de seus comportamentos relevantes para o sistema. De forma a cumprir suas responsabilidades.
+Identificar classes a partir de seus comportamentos relevantes para o sistema. De forma a cumprir suas **responsabilidades**.
 
 Responsabilidades são tudo que um objeto conhece ou faz (só ou com ajuda).
 
@@ -192,7 +192,7 @@ Responsabilidades são tudo que um objeto conhece ou faz (só ou com ajuda).
 
 - Objeto Pedido conhece sua data de realização e deve ser capaz de calcular seu valor total.
 
-Existem casos onde a responsabilidade não pode ser cumprida pelo objeto sozinho. Nesses casos, o objeto requisita colaborações.
+Existem casos onde a responsabilidade não pode ser cumprida pelo objeto sozinho. Nesses casos, o objeto requisita **colaborações**.
 
 - Fatura de um pedido é solicitada.
 
@@ -204,11 +204,11 @@ Existem casos onde a responsabilidade não pode ser cumprida pelo objeto sozinho
 
 - Objetos Produto fornecem nome e valor unitário.
 
-Colaborações são nossos Relacionamentos.
+Colaborações são nossos **Relacionamentos**.
 
 <img src="../.assets/indenticlassini.JPG">
 
-Objetos de Entidade:
+**Objetos de Entidade:**
 
 - Representam conceitos do negócio;
 
@@ -223,7 +223,7 @@ Objetos de Entidade:
 - Fazer: fornecer valores de atributos, realizar cálculos simples, criar/destruir objetos partes.
 
 
-Objetos de Fronteira:
+**Objetos de Fronteira:**
 
 - Utilizados para comunicação do sistema com os atores;
 
@@ -241,7 +241,7 @@ Objetos de Fronteira:
 
 
 
-Objetos de Controle:
+**Objetos de Controle:**
 
 - Ponte de comunicação entre objetos de fronteira e objetos de entidade;
 
@@ -256,7 +256,7 @@ Objetos de Controle:
 - Fazer: realizar monitorações, coordenar realização de caso de uso, assegurar regras do negócio, coordenação criação de associações entre objetos de entidade.
 
 
-Divisão de Responsabilidades facilita as eventuais modificações no sistema, tornando-as mais localizadas.
+**Divisão de Responsabilidades** facilita as eventuais modificações no sistema, tornando-as mais localizadas.
 
 <img src="../.assets/indeclassinit2.JPG">
 
@@ -264,23 +264,23 @@ Divisão de Responsabilidades facilita as eventuais modificações no sistema, t
 
 É realizada a análise dos casos de uso e todos os seus fluxos.
 
-- Na descrição textual, são destacados os substantivos e locuções equivalentes a substantivos;
+- Na descrição textual, são destacados os **substantivos** e **locuções equivalentes** a substantivos;
 
 - Sinónimos são removidos;
 
 - Os nomes permanecentes correspondem às classes.
 
-- Substantivos relacionados a atores aos quais o sistema não precise armazenar informações devem ser removidos;
+- Substantivos relacionados a atores aos quais o sistema **não** precise armazenar informações devem ser removidos;
 
 - Responsabilidade de fazer são os verbos, a classe responsável costuma ser o sujeito ao qual o verbo está ligado;
 
 - Responsabilidade de conhecer e colaborações são as informações adicionais do caso de uso.
 
 
-Propriedades:
+**Propriedades:**
 
 - atributos guardam valores atômicos;
 
 - não possuem estrutura interna (modelar como classe);
 
-- aplica-se a todos os objetos de uma classe.
+- aplica-se a **todos** os objetos de uma classe.
