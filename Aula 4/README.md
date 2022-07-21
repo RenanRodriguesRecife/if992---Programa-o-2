@@ -39,6 +39,8 @@ ex: Cliente, ItemPedido, OrdemServiço.
 
 - OU junções substituídas por '_' Ex: numero_pedidos, obter_total.
 
+Boas práticas: O nome usado no diagrama de classe é o nome que vai ser usado em código
+
 ## Diagrama de Classes
 
 ### Classes
