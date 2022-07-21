@@ -113,8 +113,9 @@ Um empregado está associado a 1 ou mais projetos, Um projeto possui 0 ou mais e
 
 **Opcional**, caso multiplicidade mínima seja 0.
 
+### Recurso da Associação
 
-Recurso da Associação: características do diagrama para facilitar entendimento da relação.
+**Recurso da Associação:** características do diagrama para facilitar entendimento da relação.
 
 Nome da Associação é escrita na linha, ao meio do caminho entre as duas classes.
 
@@ -128,9 +129,9 @@ Papéis são posicionados em cada extremo da linha de associação, indicando o 
 
 ### Relacioanemtos - Agregação
 
-Agregação é um tipo especial de associação, representa relação todo-parte.
+**Agregação** é um tipo especial de associação, representa relação todo-parte.
 
-Diferença é semântica! Na agregação um objeto está contido dentro do outro.
+**Diferença é semântica**! Na agregação um objeto está contido dentro do outro.
 
 - Assimétrico. Se um objeto A é parte do objeto B, B não pode ser parte de A.
 
