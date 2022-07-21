@@ -163,7 +163,7 @@ No entanto, a classe associativa estará ligada por uma **linha tracejada** à u
 
 ###  Relacionamentos - Associações Ternárias 
 
-Associações Ternárias são usadas quando precisamos associar objetos de três classes diferentes.
+**Associações Ternárias** são usadas quando precisamos associar objetos de três classes diferentes.
 
 É possível ter associações ternárias e classes associativas em conjunto.
 
