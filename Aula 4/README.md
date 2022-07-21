@@ -149,13 +149,13 @@ No diagrama de classes, representamos agregações como uma linha com um diamant
 
 ###  Relacionamentos - Classes associativas 
 
-Classes associativas são classes relacionados com associações, ao invés de outras classes.
+**Classes associativas** são classes relacionados com associações, ao invés de outras classes.
 
 São utilizadas quando precisamos manter informações que são da associação e não das classes associadas.
 
 Na UML, classes associativas são representadas da mesma forma que classes normais. 
 
-No entanto, a classe associativa estará ligada por uma linha tracejada à uma associação. Neste caso, o nome da classe substitui o nome da associação na linha.
+No entanto, a classe associativa estará ligada por uma **linha tracejada** à uma associação. Neste caso, o nome da classe substitui o nome da associação na linha.
 
 <img src="../.assets/esclasasso1.jpg">
 
