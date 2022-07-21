@@ -173,7 +173,7 @@ No entanto, a classe associativa estará ligada por uma **linha tracejada** à u
 
 ### Relacionamentos - Associações Reflexivas
 
-Associações Reflexivas ou auto-associações relaciona objetos de uma mesma classe. Onde objetos de uma classe possuem papéis distintos.
+**Associações Reflexivas** ou auto-associações relaciona objetos de uma mesma classe. Onde objetos de uma classe possuem papéis distintos.
 Uso de papéis é importante para evitar ambiguidade.
 
 <img src="../.assets/associrefl.JPG">
