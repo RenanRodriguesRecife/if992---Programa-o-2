@@ -127,7 +127,7 @@ Papéis são posicionados em cada extremo da linha de associação, indicando o 
 
 <img src="../.assets/n_associacao2.JPG">
 
-### Relacioanemtos - Agregação
+### Relacionamentos - Agregação
 
 **Agregação** é um tipo especial de associação, representa relação todo-parte.
 
@@ -147,7 +147,7 @@ No diagrama de classes, representamos agregações como uma linha com um diamant
 
 <img src="../.assets/exagregacao.JPG">
 
-###  Relacioanemtos - Classes associativas 
+###  Relacionamentos - Classes associativas 
 
 Classes associativas são classes relacionados com associações, ao invés de outras classes.
 
@@ -161,7 +161,7 @@ No entanto, a classe associativa estará ligada por uma linha tracejada à uma a
 
 <img src="../.assets/esclasasso2.jpg">
 
-###  Relacioanemtos - Associações Ternárias 
+###  Relacionamentos - Associações Ternárias 
 
 Associações Ternárias são usadas quando precisamos associar objetos de três classes diferentes.
 
@@ -171,7 +171,7 @@ Associações Ternárias são usadas quando precisamos associar objetos de três
 
 <img src="../.assets/assoter2.JPG">
 
-### Relacioanemtos - Associações Reflexivas
+### Relacionamentos - Associações Reflexivas
 
 Associações Reflexivas ou auto-associações relaciona objetos de uma mesma classe. Onde objetos de uma classe possuem papéis distintos.
 Uso de papéis é importante para evitar ambiguidade.
