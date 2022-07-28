@@ -22,9 +22,9 @@
 
 ### Modelagem de Interações 
 
-- Modelos anteriores são representação *incompletas* do sistema;
+- Modelos anteriores são representação **incompletas** do sistema;
 
 - Possuem objetivos de fornecer entendimento do problema;
 
-- Precisamos de um *modelo de interações* para responder as questões levantadas.
+- Precisamos de um **modelo de interações** para responder as questões levantadas.
 
