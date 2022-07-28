@@ -141,3 +141,5 @@ Em UML são representados por linhas contínuas com uma seta na direção do Cas
 
 <img src="/.assets/heranca.jpg">
 
+OBS: **Manter ou CRUD** são palavras que representam as ações Create, READ, UPDATE e DELETE em um único caso de uso.
+

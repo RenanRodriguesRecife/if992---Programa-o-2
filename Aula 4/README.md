@@ -27,7 +27,7 @@ Existem três níveis:
 - Modelo de classes de especificação
 - Modelo de classes de implementação.
 
-### Padrão de Nomeclatura:
+## Padrão de Nomeclatura:
 
 - Espaço e preposições são removidos
 
@@ -38,6 +38,8 @@ ex: Cliente, ItemPedido, OrdemServiço.
 - Atributos e operações possuem primeira letra minúscula e junções iniciadas por letra maíuscula, ex: idade, numeroPedidos, obterTotal.
 
 - OU junções substituídas por '_' Ex: numero_pedidos, obter_total.
+
+Boas práticas: O nome usado no diagrama de classe é o nome que vai ser usado em código
 
 ## Diagrama de Classes
 
@@ -107,14 +109,15 @@ Um empregado pode atua em 1 departamento, um departamento possui 0 ou mais empre
 
 Um empregado está associado a 1 ou mais projetos, Um projeto possui 0 ou mais empregados.
 
-Participação:
+**Participação**:
 
-Obrigatória, caso multiplicidade mínima seja 1.
+**Obrigatória**, caso multiplicidade mínima seja 1.
 
-Opcional, caso multiplicidade mínima seja 0.
+**Opcional**, caso multiplicidade mínima seja 0.
 
+### Recurso da Associação
 
-Recurso da Associação: características do diagrama para facilitar entendimento da relação.
+**Recurso da Associação:** características do diagrama para facilitar entendimento da relação.
 
 Nome da Associação é escrita na linha, ao meio do caminho entre as duas classes.
 
@@ -126,11 +129,11 @@ Papéis são posicionados em cada extremo da linha de associação, indicando o 
 
 <img src="../.assets/n_associacao2.JPG">
 
-### Relacioanemtos - Agregação
+### Relacionamentos - Agregação
 
-Agregação é um tipo especial de associação, representa relação todo-parte.
+**Agregação** é um tipo especial de associação, representa relação todo-parte.
 
-Diferença é semântica! Na agregação um objeto está contido dentro do outro.
+**Diferença é semântica**! Na agregação um objeto está contido dentro do outro.
 
 - Assimétrico. Se um objeto A é parte do objeto B, B não pode ser parte de A.
 
@@ -146,23 +149,23 @@ No diagrama de classes, representamos agregações como uma linha com um diamant
 
 <img src="../.assets/exagregacao.JPG">
 
-###  Relacioanemtos - Classes associativas 
+###  Relacionamentos - Classes associativas 
 
-Classes associativas são classes relacionados com associações, ao invés de outras classes.
+**Classes associativas** são classes relacionados com associações, ao invés de outras classes.
 
 São utilizadas quando precisamos manter informações que são da associação e não das classes associadas.
 
 Na UML, classes associativas são representadas da mesma forma que classes normais. 
 
-No entanto, a classe associativa estará ligada por uma linha tracejada à uma associação. Neste caso, o nome da classe substitui o nome da associação na linha.
+No entanto, a classe associativa estará ligada por uma **linha tracejada** à uma associação. Neste caso, o nome da classe substitui o nome da associação na linha.
 
 <img src="../.assets/esclasasso1.jpg">
 
 <img src="../.assets/esclasasso2.jpg">
 
-###  Relacioanemtos - Associações Ternárias 
+###  Relacionamentos - Associações Ternárias 
 
-Associações Ternárias são usadas quando precisamos associar objetos de três classes diferentes.
+**Associações Ternárias** são usadas quando precisamos associar objetos de três classes diferentes.
 
 É possível ter associações ternárias e classes associativas em conjunto.
 
@@ -170,9 +173,9 @@ Associações Ternárias são usadas quando precisamos associar objetos de três
 
 <img src="../.assets/assoter2.JPG">
 
-### Relacioanemtos - Associações Reflexivas
+### Relacionamentos - Associações Reflexivas
 
-Associações Reflexivas ou auto-associações relaciona objetos de uma mesma classe. Onde objetos de uma classe possuem papéis distintos.
+**Associações Reflexivas** ou auto-associações relaciona objetos de uma mesma classe. Onde objetos de uma classe possuem papéis distintos.
 Uso de papéis é importante para evitar ambiguidade.
 
 <img src="../.assets/associrefl.JPG">
@@ -181,9 +184,9 @@ Uso de papéis é importante para evitar ambiguidade.
 
 ### Identificando Classes Iniciais
 
-Identificar classes candidatas e remover classes desnecessárias. Processo não sequencial.
+Identificar classes candidatas e remover classes desnecessárias. Processo **não** sequencial.
 
-Identificar classes a partir de seus comportamentos relevantes para o sistema. De forma a cumprir suas responsabilidades.
+Identificar classes a partir de seus comportamentos relevantes para o sistema. De forma a cumprir suas **responsabilidades**.
 
 Responsabilidades são tudo que um objeto conhece ou faz (só ou com ajuda).
 
@@ -191,7 +194,7 @@ Responsabilidades são tudo que um objeto conhece ou faz (só ou com ajuda).
 
 - Objeto Pedido conhece sua data de realização e deve ser capaz de calcular seu valor total.
 
-Existem casos onde a responsabilidade não pode ser cumprida pelo objeto sozinho. Nesses casos, o objeto requisita colaborações.
+Existem casos onde a responsabilidade não pode ser cumprida pelo objeto sozinho. Nesses casos, o objeto requisita **colaborações**.
 
 - Fatura de um pedido é solicitada.
 
@@ -203,11 +206,11 @@ Existem casos onde a responsabilidade não pode ser cumprida pelo objeto sozinho
 
 - Objetos Produto fornecem nome e valor unitário.
 
-Colaborações são nossos Relacionamentos.
+Colaborações são nossos **Relacionamentos**.
 
 <img src="../.assets/indenticlassini.JPG">
 
-Objetos de Entidade:
+**Objetos de Entidade:**
 
 - Representam conceitos do negócio;
 
@@ -222,7 +225,7 @@ Objetos de Entidade:
 - Fazer: fornecer valores de atributos, realizar cálculos simples, criar/destruir objetos partes.
 
 
-Objetos de Fronteira:
+**Objetos de Fronteira:**
 
 - Utilizados para comunicação do sistema com os atores;
 
@@ -240,7 +243,7 @@ Objetos de Fronteira:
 
 
 
-Objetos de Controle:
+**Objetos de Controle:**
 
 - Ponte de comunicação entre objetos de fronteira e objetos de entidade;
 
@@ -255,7 +258,7 @@ Objetos de Controle:
 - Fazer: realizar monitorações, coordenar realização de caso de uso, assegurar regras do negócio, coordenação criação de associações entre objetos de entidade.
 
 
-Divisão de Responsabilidades facilita as eventuais modificações no sistema, tornando-as mais localizadas.
+**Divisão de Responsabilidades** facilita as eventuais modificações no sistema, tornando-as mais localizadas.
 
 <img src="../.assets/indeclassinit2.JPG">
 
@@ -263,23 +266,23 @@ Divisão de Responsabilidades facilita as eventuais modificações no sistema, t
 
 É realizada a análise dos casos de uso e todos os seus fluxos.
 
-- Na descrição textual, são destacados os substantivos e locuções equivalentes a substantivos;
+- Na descrição textual, são destacados os **substantivos** e **locuções equivalentes** a substantivos;
 
 - Sinónimos são removidos;
 
 - Os nomes permanecentes correspondem às classes.
 
-- Substantivos relacionados a atores aos quais o sistema não precise armazenar informações devem ser removidos;
+- Substantivos relacionados a atores aos quais o sistema **não** precise armazenar informações devem ser removidos;
 
 - Responsabilidade de fazer são os verbos, a classe responsável costuma ser o sujeito ao qual o verbo está ligado;
 
 - Responsabilidade de conhecer e colaborações são as informações adicionais do caso de uso.
 
 
-Propriedades:
+**Propriedades:**
 
 - atributos guardam valores atômicos;
 
 - não possuem estrutura interna (modelar como classe);
 
-- aplica-se a todos os objetos de uma classe.
+- aplica-se a **todos** os objetos de uma classe.
