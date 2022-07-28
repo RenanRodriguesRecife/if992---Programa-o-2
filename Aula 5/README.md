@@ -28,3 +28,10 @@
 
 - Precisamos de um **modelo de interações** para responder as questões levantadas.
 
+#### Validação
+
+Por meio do modelo de interações podemos validar as classes, reponsabilidades e colaboradores anteriormente identificados.
+
+#### Refinamento
+
+Esse modelo nos permite refinar as classes de domínio, pois as operações de cada classe são identificadas.
