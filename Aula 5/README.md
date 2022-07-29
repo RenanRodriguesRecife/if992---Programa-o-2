@@ -60,5 +60,13 @@ Objetos também podem enviar mensagens a si próprios, requisitando execução d
 
 - **Mensagens Assíncronas**: são mensagens nas quais o objeto remetente não espera a conclusão do processamento da mensagem para prosseguir com seu comportamento.
 
+## Sintaxe UML - Mensagem
 
+Em UML, mensagens são representadas graficamente por uma seta.
+
+A seta segue o sentido do objeto remetente ao objeto receptor.
+
+As setas possuem rótulos que define a especificação da mensagem sendo enviada. A especificação segue o seguinte formato.
+
+**expressão-sequência recorrência:v := mensagem**
 
