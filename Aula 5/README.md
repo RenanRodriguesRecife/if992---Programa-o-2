@@ -126,3 +126,10 @@ Existem **dois** tipos de diagramas de interações:
 - diagramas de colaboração.
 
 Em nossa disciplina veremos **diagramas de sequência**. Mas ambos são equivalentes
+
+- diagramas de sequência possuem ênfase na ordem temporal
+
+- diagramas de colaboração, por sua vez, enfatizam as relações entre objetos
+
+## Diagrama de Sequência
+
