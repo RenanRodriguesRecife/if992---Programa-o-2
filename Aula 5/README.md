@@ -53,3 +53,12 @@ UML define três tipos de mensagens:
 - Mensagens Assíncronas
 
 Objetos também podem enviar mensagens a si próprios, requisitando execução de uma função de sua própria classe. Chamamos de **mensagens reflexivas**.
+
+- **Mensagens Simples**: são utilizadas quando a natureza das mensagens não é relevante. Esse é o tipo de mensagem mais comum.
+
+- **Mensagens Síncronas**: são utilizadas quando o objeto remetente espera o objeto receptor concluir o processamento da mensagem antes de retornar o seu. Isso significa que o objeto remetente fica bloqueado até o receptor terminar de atender a requisição.
+
+- **Mensagens Assíncronas**: são mensagens nas quais o objeto remetente não espera a conclusão do processamento da mensagem para prosseguir com seu comportamento.
+
+
+
