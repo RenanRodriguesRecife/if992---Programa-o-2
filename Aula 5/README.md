@@ -70,3 +70,13 @@ As setas possuem rótulos que define a especificação da mensagem sendo enviada
 
 **expressão-sequência recorrência:v := mensagem**
 
+#### expressão-sequência
+
+**expressão-sequência** recorrência:v := mensagem
+
+A mensagem pode estar associada a uma expressão de sequência, usada para remover ambiguidades.
+
+Pode ser definida como formato de níveis, por exemplo: 1, 1.1, 1.2, 2, 2.1, etx.
+
+Também podemos usar sufixos de letras para indicar paralelismo: 1.1a, 1.1b
+
