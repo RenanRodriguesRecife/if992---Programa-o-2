@@ -117,3 +117,12 @@ expressão-sequência recorrência:v := mensagem
 
 ## Diagramas de Interações
 
+Os diagrams de interações modelam a lógica de um **cenário de caso de uso** ou **uma parte** de um cenário, caso esse seja muito complexo.
+
+O diagrama irá descrever a sequencia de mensagens enviadas e recebidas pelos objetos que participam do caso de uso.
+
+Existem **dois** tipos de diagramas de interações:
+- diagramas de sequência.
+- diagramas de colaboração.
+
+Em nossa disciplina veremos **diagramas de sequência**. Mas ambos são equivalentes
