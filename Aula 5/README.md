@@ -206,3 +206,36 @@ Um objeto normalmente é destruído quando ele não é mais necessário na inter
 Objetos podem precisar de ajuda para realizar suas responsabilidades. Para isso ele deve enviar mensagens.
 
 Essa mensagem indica que existe uma operação no objeto receptor.
+
+## Estudo de Caso
+
+### Sequência
+
+Para construir um diagrama de sequência devemos seguir os passos abaixo:
+
+1 - Para cada caso de uso, definir um conjunto de cenários relevantes
+
+2 - Para cada cenário, faça o seguinte:
+    -   Posicione os atores, objeto de fronteira e objeto de controle no diagrama
+    -   Para cado passo do cenário, defina as mensagens a serem enviadas de um objeto a outro
+    -   Defina as cláusula de condição e iteração, se existirem, para as mensagens;
+    -   Adicione multi objectos e objetos de entidade à medida que a sua participação se faça necessária no cenário selecionado.
+
+1 - Para cada caso de uso, definir um conjunto de cenários relevantes.
+
+A escolha depende da complexidade dos cenários. Esses podem ser cenário de fluxo principal, alternativo ou de exceção, ou até parte de um fluxo.
+
+2 - Para cada cenário, faça o seguinte:
+    b - Para cada passo do cenário, defina as mensagens a serem enviadas de um objeto a outro;
+
+A seleção das mensagens parte das responsabilidades dos objetos. Com isso podemos definir: o nome da mensagem, os argumentos, valores de retorno, cláusulas de condição e repetição.
+
+**É possível identificar a necessidade de novas classes durante a criação do diagrama de sequência!**
+
+Por fim, o modelador (nós) deve verificar a consistência do diagrama resultante.
+
+-   Cada cenário relevante para cada caso de uso foi considerado?
+
+-   As mensagens recebidas pelos objetos são consistentes com suas responsabilidades?
+
+Mensagens enviadas por atores não indicam operações, geralmente são rotuladas com a informação solicitada. Ex.: item pedido, id e senha.
