@@ -133,3 +133,76 @@ Em nossa disciplina veremos **diagramas de sequência**. Mas ambos são equivale
 
 ## Diagrama de Sequência
 
+Diagramas de sequência são formados por diversos componentes gráficos:
+
+<img src="">
+
+- Atores
+- Objetos
+- Classes
+- Linhas de vida
+- Mensagens
+- Focos de Controle
+- Criação de Objetos
+- Destruição de objetos
+
+<img src="">
+
+**Atores** podem ser opcionalmente representados, caso participem da realização do caso de uso.
+
+São representados da mesma maneira que no diagrama de casos de uso.
+
+**Objetos** que participam da realização do caso de uso devem aparecer no diagrama. São representados por retângulos com o nome do objeto, sublinhado.
+
+Objetos podem ser nomeados ou anônimos.
+
+A ordem horizontal não possui significado. Mas geralmente segue (esquerda->direita): atores, fronteira, controle, entidade.
+
+**Classes** Na maioria das vezes, apanas objetos são representados.
+
+Mas caso uma mensagem seja endereçada à uma classe, não a um objeto, podemos representar a própria classe no diagrama. (Operação estáticas)
+
+Uma classe é representada da mesma maneira que um objeto, mas o nome não é sublinhado.
+
+**Linha de vida** No diagrama de sequência, cada objeto aparece no topo de uma linha vertical tracejada. Essa linha é denominada **Linha de vida**.
+
+**Mensagens** são representadas por uma flecha horizontal, ligando uma linha de vida a outra.
+
+O objeto do qual a flecha parte é o remetente, e a flecha aponta para o receptor.
+
+O formato da ponta da seta indica o tipo de mensagem. O rótulo da mensagem fica acima da linha.
+
+**Linha de vida**
+A passagem do tempo é percebida na direção vertical, de cima para baixo
+
+Quando mais baixo se encontra uma mensagem, mais tarde no decorrer do caso de uso ela é enviada.
+
+Embora nem sempre seja possível, deve se tentar organizar o diagrama na ordem em que as mensagens são enviadas.
+
+**Foco de controle** são os blocos retangulares que ficam sobre as linhas de vida. Um foco de controle representa o tempo em que um objeto realiza uma ação
+
+O topo coincide com o recebimento de uma mensagem, enquanto o fundo coinide com a finalização de uma operação.
+
+O retorno se torna opcional pois o fundo corresponde com o retorno.
+
+<img src = "">
+
+A posição vertical de um objeto no diagrama indica o momento em que começa a participar da interação.
+
+<img src = "">
+
+A instanciação de um objeto pode ser requisitada por meio de uma mensagem, comummente a mensagem é rotulado com o nome criar
+
+<img src = "">
+
+O diagrama também pode mostrar a **destruição de um objeto** no decorrer de um interação.
+
+Um X abaixo do foco de controle do objeto representa que ele está sendo destruído.
+
+Um objeto normalmente é destruído quando ele não é mais necessário na interação
+
+<img src = "">
+
+Objetos podem precisar de ajuda para realizar suas responsabilidades. Para isso ele deve enviar mensagens.
+
+Essa mensagem indica que existe uma operação no objeto receptor.
