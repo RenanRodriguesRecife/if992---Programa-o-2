@@ -4,6 +4,8 @@
 
 ### Diagramas de Caso de Uso
 
+O diagrama de Caso de Uso não responde algumas perguntas:
+
 - Quais operações devem ser executadas internamente?
 
 - A que classes essas operações pertencem?
@@ -11,6 +13,8 @@
 - Quais objetos participam da realização do caso de uso?
 
 ### Digramas de Classe
+
+O diagrama de Classes não responde essas perguntas:
 
 - Como objetos colaboram para que um determinado caso de uso seja realizado?
 
