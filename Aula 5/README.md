@@ -50,6 +50,8 @@ Podemos ver um sistema baseado em OO como uma rede de objetos. Nessa rede, mensa
 
 UML define três tipos de mensagens:
 
+<img src="tipos de mensagens">
+
 - Mensagens Simples
 
 - Mensagens Síncronas;
@@ -62,7 +64,11 @@ Objetos também podem enviar mensagens a si próprios, requisitando execução d
 
 - **Mensagens Síncronas**: são utilizadas quando o objeto remetente espera o objeto receptor concluir o processamento da mensagem antes de retornar o seu. Isso significa que o objeto remetente fica bloqueado até o receptor terminar de atender a requisição.
 
+(No diagrama Obrigatóriamente ele requisita uma mensagem de retorno (pontilhada))
+
 - **Mensagens Assíncronas**: são mensagens nas quais o objeto remetente não espera a conclusão do processamento da mensagem para prosseguir com seu comportamento.
+
+(No diagrama Mensagem de retorno não é obrigatória, caso deseje colocar a respresentação da mensagem de retorno deve ser do tipo assíncrona)
 
 ## Sintaxe UML - Mensagem
 
