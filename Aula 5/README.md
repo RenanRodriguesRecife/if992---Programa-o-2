@@ -120,12 +120,13 @@ O elemento mensagem representa a expressão chamada de uma operação definida n
 Pode incluir a lista de parâmetros, possivelmente vazia, utilizando parênteses. Parâmetros são delimitados por vígulas.
 
 Exemplos:
-
+```
 - 1:adicionarItem(Item)
 - 3 [a > b]:trocar(a,b)
 - 2 *:desenhar()
 - 2 *[i:=1..10]:figuras[i],desenhar()
 - 1.2.1:x:=selecionar(e)
+```
 
 expressão-sequência recorrência:v := mensagem
 
