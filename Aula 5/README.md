@@ -66,7 +66,7 @@ Objetos também podem enviar mensagens a si próprios, requisitando execução d
 
 - **Mensagens Síncronas**: são utilizadas quando o objeto remetente espera o objeto receptor concluir o processamento da mensagem antes de retornar o seu. Isso significa que o objeto remetente fica bloqueado até o receptor terminar de atender a requisição.
 
-<img src="msg sincrona">
+<img src=".assets/retorno exigido.JPG">
 
 (No diagrama Obrigatóriamente ele requisita uma mensagem de retorno (pontilhada))
 
