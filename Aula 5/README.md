@@ -50,7 +50,7 @@ Podemos ver um sistema baseado em OO como uma rede de objetos. Nessa rede, mensa
 
 UML define três tipos de mensagens:
 
-<img src="tipos de mensagens">
+<img src=".assets/tiposmensagens.png">
 
 - Mensagens Simples
 
