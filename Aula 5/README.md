@@ -84,11 +84,11 @@ A seta segue o sentido do objeto remetente ao objeto receptor.
 
 As setas possuem rótulos que define a especificação da mensagem sendo enviada. A especificação segue o seguinte formato.
 
-**expressão-sequência recorrência:v := mensagem**
+- **expressão-sequência recorrência:v := mensagem**
 
-#### expressão-sequência
+### expressão-sequência
 
-**expressão-sequência** recorrência:v := mensagem
+- **expressão-sequência** recorrência:v := mensagem
 
 A mensagem pode estar associada a uma expressão de sequência, usada para remover ambiguidades.
 
@@ -96,9 +96,9 @@ Pode ser definida como formato de níveis, por exemplo: 1, 1.1, 1.2, 2, 2.1, etx
 
 Também podemos usar sufixos de letras para indicar paralelismo: 1.1a, 1.1b
 
-#### recorrência
+### recorrência
 
-expressão-sequência **recorrência**:v := mensagem
+- expressão-sequência **recorrência**:v := mensagem
 
 Às vezes é necessário indicar que o envio de uma mensagem está condicionado á uma expressão lógica. Outras é necessário indicar a quantidade de vezes que uma mensagem é enviada.
 
@@ -107,15 +107,15 @@ Para cada um utilizamos uma sintaxe:
 - [cláusula-condição],ex: [a>b]
 - *[cláusula-iteração], ex: *[i:=1..10]
 
-#### v
+### v
 
-expressão-sequência recorrência:**v** := mensagem
+- expressão-sequência recorrência:**v** := mensagem
 
 Com o elemento v, podemos indicar o nome de variável que receberá o valor de retorno da operação a ser executada no objeto receptor.
 
-#### mensagem
+### mensagem
 
-expressão-sequência recorrência:v := **mensagem**
+- expressão-sequência recorrência:v := **mensagem**
 
 O elemento mensagem representa a expressão chamada de uma operação definida na classe do objeto receptor.
 
