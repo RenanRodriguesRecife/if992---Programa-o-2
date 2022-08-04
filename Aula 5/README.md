@@ -72,7 +72,7 @@ Objetos também podem enviar mensagens a si próprios, requisitando execução d
 
 - **Mensagens Assíncronas**: são mensagens nas quais o objeto remetente não espera a conclusão do processamento da mensagem para prosseguir com seu comportamento.
 
-<img src="msg assincrona">
+<img src=".assets/retorno opcional.JPG">
 
 (No diagrama Mensagem de retorno não é obrigatória, caso deseje colocar a respresentação da mensagem de retorno deve ser do tipo assíncrona)
 
