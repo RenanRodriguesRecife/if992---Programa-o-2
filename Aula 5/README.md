@@ -88,7 +88,7 @@ As setas possuem rótulos que define a especificação da mensagem sendo enviada
 
 ### expressão-sequência
 
-- **expressão-sequência** recorrência:v := mensagem
+`**expressão-sequência** recorrência:v := mensagem`
 
 A mensagem pode estar associada a uma expressão de sequência, usada para remover ambiguidades.
 
@@ -98,7 +98,7 @@ Também podemos usar sufixos de letras para indicar paralelismo: 1.1a, 1.1b
 
 ### recorrência
 
-- expressão-sequência **recorrência**:v := mensagem
+`expressão-sequência **recorrência**:v := mensagem`
 
 Às vezes é necessário indicar que o envio de uma mensagem está condicionado á uma expressão lógica. Outras é necessário indicar a quantidade de vezes que uma mensagem é enviada.
 
@@ -109,13 +109,13 @@ Para cada um utilizamos uma sintaxe:
 
 ### v
 
-- expressão-sequência recorrência:**v** := mensagem
+`expressão-sequência recorrência:**v** := mensagem`
 
 Com o elemento v, podemos indicar o nome de variável que receberá o valor de retorno da operação a ser executada no objeto receptor.
 
 ### mensagem
 
-- expressão-sequência recorrência:v := **mensagem**
+`expressão-sequência recorrência:v := **mensagem**`
 
 O elemento mensagem representa a expressão chamada de uma operação definida na classe do objeto receptor.
 
