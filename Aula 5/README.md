@@ -4,7 +4,7 @@
 
 ### Diagramas de Caso de Uso
 
-O diagrama de Caso de Uso não responde algumas perguntas:
+O diagrama de Caso de Uso não responde as questões:
 
 - Quais operações devem ser executadas internamente?
 
@@ -14,7 +14,7 @@ O diagrama de Caso de Uso não responde algumas perguntas:
 
 ### Digramas de Classe
 
-O diagrama de Classes não responde essas perguntas:
+O diagrama de Classes não responde as questões:
 
 - Como objetos colaboram para que um determinado caso de uso seja realizado?
 
@@ -57,6 +57,8 @@ UML define três tipos de mensagens:
 - Mensagens Assíncronas
 
 Objetos também podem enviar mensagens a si próprios, requisitando execução de uma função de sua própria classe. Chamamos de **mensagens reflexivas**.
+
+
 
 - **Mensagens Simples**: são utilizadas quando a natureza das mensagens não é relevante. Esse é o tipo de mensagem mais comum.
 
