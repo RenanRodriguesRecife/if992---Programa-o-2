@@ -210,7 +210,7 @@ Quando mais baixo se encontra uma mensagem, mais tarde no decorrer do caso de us
 Embora nem sempre seja possível, deve se tentar organizar o diagrama na ordem em que as mensagens são enviadas.
 
 
-<img src=".assets/foco de controle.png">
+<img src=".assets/foco de controle.PNG">
 
 **Foco de controle** são os blocos retangulares que ficam sobre as linhas de vida. Um foco de controle representa o tempo em que um objeto realiza uma ação
 
@@ -221,11 +221,11 @@ O retorno se torna opcional pois o fundo corresponde com o retorno.
 
 A posição vertical de um objeto no diagrama indica o momento em que começa a participar da interação.
 
-<img src = "criar">
+<img src = ".assets/criar.jpg">
 
 A instanciação de um objeto pode ser requisitada por meio de uma mensagem, comummente a mensagem é rotulado com o nome criar
 
-<img src = "destruir">
+<img src = ".assets/destruir.jpg">
 
 O diagrama também pode mostrar a **destruição de um objeto** no decorrer de um interação.
 
@@ -233,7 +233,7 @@ Um X abaixo do foco de controle do objeto representa que ele está sendo destru�
 
 Um objeto normalmente é destruído quando ele não é mais necessário na interação
 
-<img src = "operação">
+<img src = ".assets/operacao.PNG">
 
 Objetos podem precisar de ajuda para realizar suas responsabilidades. Para isso ele deve enviar mensagens.
 
