@@ -175,7 +175,7 @@ São representados da mesma maneira que no diagrama de casos de uso.
 
 Objetos podem ser nomeados ou anônimos.
 
-<img src=".assets/anonome.png">
+<img src=".assets/anonome.PNG">
 
 A ordem horizontal não possui significado. Mas geralmente segue (esquerda->direita): atores, fronteira, controle, entidade.
 
@@ -188,11 +188,11 @@ Mas caso uma mensagem seja endereçada à uma classe, não a um objeto, podemos 
 
 Uma classe é representada da mesma maneira que um objeto, mas o nome não é sublinhado.
 
-<img src=".assets/tempo de vida.JPG">
+<img src=".assets/linha de vida.png">
 
 **Linha de vida** No diagrama de sequência, cada objeto aparece no topo de uma linha vertical tracejada. Essa linha é denominada **Linha de vida**.
 
-<img src=".assets/mensagemtipo.png">
+<img src=".assets/tiposmensagens.png">
 
 **Mensagens** são representadas por uma flecha horizontal, ligando uma linha de vida a outra.
 
@@ -200,7 +200,7 @@ O objeto do qual a flecha parte é o remetente, e a flecha aponta para o recepto
 
 O formato da ponta da seta indica o tipo de mensagem. O rótulo da mensagem fica acima da linha.
 
-<img src=".assets/tempo de vida.JPG">
+<img src=".assets/tempo de vida.jpg">
 
 **Linha de vida**
 A passagem do tempo é percebida na direção vertical, de cima para baixo
@@ -210,7 +210,7 @@ Quando mais baixo se encontra uma mensagem, mais tarde no decorrer do caso de us
 Embora nem sempre seja possível, deve se tentar organizar o diagrama na ordem em que as mensagens são enviadas.
 
 
-<img src=".assets/.JPG">
+<img src=".assets/foco de controle.png">
 
 **Foco de controle** são os blocos retangulares que ficam sobre as linhas de vida. Um foco de controle representa o tempo em que um objeto realiza uma ação
 
