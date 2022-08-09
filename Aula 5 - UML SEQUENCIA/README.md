@@ -72,7 +72,7 @@ Objetos também podem enviar mensagens a si próprios, requisitando execução d
 
 - **Mensagens Assíncronas**: são mensagens nas quais o objeto remetente não espera a conclusão do processamento da mensagem para prosseguir com seu comportamento.
 
-<img src="msg assincrona">
+<img src=".assets/retorno opcional.JPG">
 
 (No diagrama Mensagem de retorno não é obrigatória, caso deseje colocar a respresentação da mensagem de retorno deve ser do tipo assíncrona)
 
@@ -84,11 +84,11 @@ A seta segue o sentido do objeto remetente ao objeto receptor.
 
 As setas possuem rótulos que define a especificação da mensagem sendo enviada. A especificação segue o seguinte formato.
 
-**expressão-sequência recorrência:v := mensagem**
+- **expressão-sequência recorrência:v := mensagem**
 
-#### expressão-sequência
+### expressão-sequência
 
-**expressão-sequência** recorrência:v := mensagem
+`**expressão-sequência** recorrência:v := mensagem`
 
 A mensagem pode estar associada a uma expressão de sequência, usada para remover ambiguidades.
 
@@ -96,9 +96,9 @@ Pode ser definida como formato de níveis, por exemplo: 1, 1.1, 1.2, 2, 2.1, etx
 
 Também podemos usar sufixos de letras para indicar paralelismo: 1.1a, 1.1b
 
-#### recorrência
+### recorrência
 
-expressão-sequência **recorrência**:v := mensagem
+`expressão-sequência **recorrência**:v := mensagem`
 
 Às vezes é necessário indicar que o envio de uma mensagem está condicionado á uma expressão lógica. Outras é necessário indicar a quantidade de vezes que uma mensagem é enviada.
 
@@ -107,15 +107,15 @@ Para cada um utilizamos uma sintaxe:
 - [cláusula-condição],ex: [a>b]
 - *[cláusula-iteração], ex: *[i:=1..10]
 
-#### v
+### v
 
-expressão-sequência recorrência:**v** := mensagem
+`expressão-sequência recorrência:**v** := mensagem`
 
 Com o elemento v, podemos indicar o nome de variável que receberá o valor de retorno da operação a ser executada no objeto receptor.
 
-#### mensagem
+### mensagem
 
-expressão-sequência recorrência:v := **mensagem**
+`expressão-sequência recorrência:v := **mensagem**`
 
 O elemento mensagem representa a expressão chamada de uma operação definida na classe do objeto receptor.
 
@@ -152,7 +152,7 @@ Em nossa disciplina veremos **diagramas de sequência**. Mas ambos são equivale
 
 Diagramas de sequência são formados por diversos componentes gráficos:
 
-<img src="">
+<img src=".assets/basico.JPG">
 
 - Atores
 - Objetos
@@ -163,31 +163,44 @@ Diagramas de sequência são formados por diversos componentes gráficos:
 - Criação de Objetos
 - Destruição de objetos
 
-<img src="">
+<img src=".assets/ator.png">
 
 **Atores** podem ser opcionalmente representados, caso participem da realização do caso de uso.
 
 São representados da mesma maneira que no diagrama de casos de uso.
 
+<img src=".assets/objeto.png">
+
 **Objetos** que participam da realização do caso de uso devem aparecer no diagrama. São representados por retângulos com o nome do objeto, sublinhado.
 
 Objetos podem ser nomeados ou anônimos.
 
+<img src=".assets/anonome.PNG">
+
 A ordem horizontal não possui significado. Mas geralmente segue (esquerda->direita): atores, fronteira, controle, entidade.
+
+<img src=".assets/basico.JPG">
 
 **Classes** Na maioria das vezes, apanas objetos são representados.
 
 Mas caso uma mensagem seja endereçada à uma classe, não a um objeto, podemos representar a própria classe no diagrama. (Operação estáticas)
 
+
 Uma classe é representada da mesma maneira que um objeto, mas o nome não é sublinhado.
 
+<img src=".assets/linha de vida.png">
+
 **Linha de vida** No diagrama de sequência, cada objeto aparece no topo de uma linha vertical tracejada. Essa linha é denominada **Linha de vida**.
+
+<img src=".assets/tiposmensagens.png">
 
 **Mensagens** são representadas por uma flecha horizontal, ligando uma linha de vida a outra.
 
 O objeto do qual a flecha parte é o remetente, e a flecha aponta para o receptor.
 
 O formato da ponta da seta indica o tipo de mensagem. O rótulo da mensagem fica acima da linha.
+
+<img src=".assets/tempo de vida.jpg">
 
 **Linha de vida**
 A passagem do tempo é percebida na direção vertical, de cima para baixo
@@ -196,21 +209,23 @@ Quando mais baixo se encontra uma mensagem, mais tarde no decorrer do caso de us
 
 Embora nem sempre seja possível, deve se tentar organizar o diagrama na ordem em que as mensagens são enviadas.
 
+
+<img src=".assets/foco de controle.PNG">
+
 **Foco de controle** são os blocos retangulares que ficam sobre as linhas de vida. Um foco de controle representa o tempo em que um objeto realiza uma ação
 
 O topo coincide com o recebimento de uma mensagem, enquanto o fundo coinide com a finalização de uma operação.
 
 O retorno se torna opcional pois o fundo corresponde com o retorno.
 
-<img src = "">
 
 A posição vertical de um objeto no diagrama indica o momento em que começa a participar da interação.
 
-<img src = "">
+<img src = ".assets/criar.jpg">
 
 A instanciação de um objeto pode ser requisitada por meio de uma mensagem, comummente a mensagem é rotulado com o nome criar
 
-<img src = "">
+<img src = ".assets/destruir.jpg">
 
 O diagrama também pode mostrar a **destruição de um objeto** no decorrer de um interação.
 
@@ -218,7 +233,7 @@ Um X abaixo do foco de controle do objeto representa que ele está sendo destru�
 
 Um objeto normalmente é destruído quando ele não é mais necessário na interação
 
-<img src = "">
+<img src = ".assets/operacao.PNG">
 
 Objetos podem precisar de ajuda para realizar suas responsabilidades. Para isso ele deve enviar mensagens.
 
