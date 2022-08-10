@@ -129,3 +129,19 @@ def age(self):
 - Definir uma classe, assim como definir uma função, não faz nada executar.
 
 - Apenas é informado ao Python que a classe existe.
+
+# Atributos de Instância
+
+Os atributos definidos no __init__ não representam a totalidade dos atributos possíveis em um objeto. 
+
+- É possível criar novos atributos diretamente na instância da classe, ou dentro de métodos da classe.
+    
+    - person.pets = [‘cat’, ‘dog’]
+
+** Má prática de programação e quebra a orientação à objetos **
+
+- Como __init__ executa antes de qualquer coisa, definir todos os atributos dentro dele (mesmo que vazios) garante que eles existiram ao tentar acessar.
+
+- Criar fora pode acarretar em um atributo tentar ser acessado quando ele não existe.
+
+Os métodos built in **getattr**, **setattr** e **hasattr**, nos permitem retornar o valor de um atributo, definir um atributo ou verificar se um objeto possui um atributo sem o uso do . utilizando o nome do atributo como string.
