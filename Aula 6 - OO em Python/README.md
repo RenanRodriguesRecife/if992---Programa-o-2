@@ -90,3 +90,42 @@ def age(self):
 
 - O segundo método é uma função personalizada que calcula a idade de uma pessoa dada sua data de nascimento e a data atual.
 
+```python
+def __init__(self, name, surname, birthdate, address, telephone, email):
+def age(self):
+```
+
+- Note que self é definido como parâmetro para ambos os métodos. Mas não é passado como parâmetro quando os métodos são chamados.
+
+- Quando chamamos um método em um objeto, o próprio objeto é passado como parâmetro, permitindo acessar o objeto dentro do escopo dos métodos.
+
+```python
+def __init__(self, name, surname, birthdate, address, telephone, email):
+    self.name = name
+    self.surname = surname
+    self.birthdate = birthdate
+    self.address = address
+    self.telephone = telephone
+    self.email = email
+```
+
+- O método __init__ cria atributos em self, que é o próprio objeto.
+
+- Os nomes utilizados no exemplo são os mesmos entre os parâmetros de __init__ e os atributos criados em self, mas não é obrigatório que sejam
+
+```python
+def age(self):
+        today = datetime.date.today()
+        age = today.year - self.birthdate.year
+        if today < datetime.date(today.year, self.birthdate.month, self.birthdate.day):
+            age -= 1
+        return age
+```
+
+- O método age não recebe nenhum parâmetro, apenas self
+
+- Note que self.birthdate é por si só um objeto da classe date, onde existem métodos e atributos (day, month, year).
+
+- Definir uma classe, assim como definir uma função, não faz nada executar.
+
+- Apenas é informado ao Python que a classe existe.
