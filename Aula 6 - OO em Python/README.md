@@ -130,6 +130,8 @@ def age(self):
 
 - Apenas é informado ao Python que a classe existe.
 
+<img src=".assets/exercicio.jpg">
+
 ## Atributos de Instância
 
 Os atributos definidos no __init__ não representam a totalidade dos atributos possíveis em um objeto. 
