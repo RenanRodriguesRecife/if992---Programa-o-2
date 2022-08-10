@@ -130,7 +130,7 @@ def age(self):
 
 - Apenas é informado ao Python que a classe existe.
 
-<img src=".assets/exercicio.jpg">
+<img src=".assets/exercio.jpg">
 
 ## Atributos de Instância
 
