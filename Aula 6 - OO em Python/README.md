@@ -200,6 +200,7 @@ name - parâmetro
 profession - parâmetro
 
 
+
 depois de __init__
 
 self.name - atributo
