@@ -189,8 +189,25 @@ class Smith:
 antes de __init__
 
 surname - atributo de classe
+
 profession - atributo de classe
 
+
 em __init__ 
-name - 
-profession - 
+
+name - parâmetro
+
+profession - parâmetro
+
+
+depois de __init__
+
+self.name - atributo
+
+name - atributo
+
+profession - atributo de classe
+
+self.profession - atributo
+
+profession - parâmetro
