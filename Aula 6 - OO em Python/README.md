@@ -60,3 +60,28 @@ print(person.email)
 print(person.age())
 
 ```
+
+class Person:
+
+- Nós começamos a definição de uma classe com a palavra reservada class, seguida do nome da classe e dois-pontos. 
+
+- Todas as heranças da classe são listadas entre parênteses, entre o nome da classe e os dois-pontos. Por enquanto vamos ignorar essa parte.
+
+De maneira generalizada, classes são definidas como:
+
+```python
+class className([superclasses]):
+```
+
+- Dentro do corpo da classe podemos definir atributos e métodos.
+
+- Atributos podem ser definidos no escopo da classe, mas comumente são definidos dentro do método construtor.
+
+- No nosso exemplo temos dois métodos, o inicializador (__init__) e um método para calcular a idade (age):
+def __init__(self, name, surname, birthdate, address, telephone, email):
+def age(self):
+    
+```python
+def __init__(self, name, surname, birthdate, address, telephone, email):
+def age(self):
+```
