@@ -130,7 +130,7 @@ def age(self):
 
 - Apenas é informado ao Python que a classe existe.
 
-# Atributos de Instância
+## Atributos de Instância
 
 Os atributos definidos no __init__ não representam a totalidade dos atributos possíveis em um objeto. 
 
@@ -145,3 +145,52 @@ Os atributos definidos no __init__ não representam a totalidade dos atributos p
 - Criar fora pode acarretar em um atributo tentar ser acessado quando ele não existe.
 
 Os métodos built in **getattr**, **setattr** e **hasattr**, nos permitem retornar o valor de um atributo, definir um atributo ou verificar se um objeto possui um atributo sem o uso do . utilizando o nome do atributo como string.
+
+## Atributos de Classe
+
+Tal como podemos definir atributos dentro do __init__ que serão inicializados quando um objeto for criado, também podemos definir atributos da própria classe, já inicializados
+
+```python
+class Person:
+    TITLES = ('Dr', 'Mr', 'Mrs', 'Ms')
+```
+
+- Esses são acessados da mesma forma: person.TITLES
+
+- Todos os objetos da classe terão atributos de classe com o mesmo valor após a criação.
+
+- Atributos de classe podem também ser acessados pela classe, sem necessidade de instanciamento!
+    -   Person.TITLES
+
+
+- Atributos de classe são comumente utilizados para definir constantes da classe.
+
+- É importante ter cuidado! 
+    -   Caso o atributo de classe seja de um tipo mutável, todos os objetos da classe serão afetados: person.TITLES.append('Sr')
+
+Mostrar **lp-exemplo-atributo-de-classe-problema.py**
+
+EXEMPLO:
+
+Explique as diferenças entre os atributos **name**, **surname** e **profession**, e quais valores eles podem ter em diferentes instâncias desta classe:
+
+
+```python
+class Smith:
+    surname = "Smith"
+    profession = "smith"
+
+    def __init__(self, name, profession=None):
+        self.name = name
+        if profession is not None:
+            self.profession = profession
+
+```
+antes de __init__
+
+surname - atributo de classe
+profession - atributo de classe
+
+em __init__ 
+name - 
+profession - 
