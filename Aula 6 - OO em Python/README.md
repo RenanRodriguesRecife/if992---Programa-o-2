@@ -85,3 +85,8 @@ def age(self):
 def __init__(self, name, surname, birthdate, address, telephone, email):
 def age(self):
 ```
+
+- Quando a classe é chamada, um novo objeto dessa classe é gerada e o método __init__ é automaticamente invocado. Esse método irá inicializar as variáveis do objeto com os parâmetros passados.
+
+- O segundo método é uma função personalizada que calcula a idade de uma pessoa dada sua data de nascimento e a data atual.
+
