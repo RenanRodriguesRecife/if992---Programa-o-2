@@ -49,3 +49,35 @@ Stephen Gilbert
 
 - Em linguagens explícitas, definimos com private.
 
+### Visibilidade - Exemplo
+
+```python
+class Point:
+    def __init__(self,x,y):
+        self.x
+        self.y
+
+class Rectangle:
+    def __init__(self):
+        self.p1 = Point(0,0)
+        self.p2 = Point(0,0)
+        self.area = 0
+```
+
+```python
+class Point:
+    x = 0
+    y = 0
+
+class Rectangle:
+    def __init__(self):
+        self.p1 = Point()
+        self.p1.x = 10
+        self.p1.y = 10
+        self.p2 = Point()
+        self.p2.x = 10
+        self.p2.y = 10
+        self.area = 0
+```
+
+- De maneira geral, devemos nos questionar, quem deve ser responsável por alterar os atributos **x** e **y** de Point?
