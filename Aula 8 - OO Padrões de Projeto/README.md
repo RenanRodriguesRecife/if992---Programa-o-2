@@ -71,21 +71,37 @@ class SocialSharing:
 
 ### Flyweight
 
-
+Flyweight é um padrão de projetos que visa reduzir a quantidade de objetos necessários para um programa. Um objeto flyweight é criado que é compartilhado em múltiplos contextos.
 
 #### Pontos positivos:
 
+- Uso reduzido de RAM
 
-
+- Performance melhorada (vale a pena usar)
 
 #### Pontos negativos:
 
+- Quebra de encapsulamento
 
-
+- Código mais complicado;
 
 #### Possíveis usos:
 
+- Quando temos diversos objetos pesados;
+
+- Redução do custo do projeto;
+
 
 ```python
-
+class ComplexCars:
+…
+class CarFamilies:
+	car_family = {}
+    def __new__(cls, name, car_family_id):
+        try:
+            id = cls.car_family[car_family_id]
+        except KeyError:
+            id = object.__new__(cls)
+            cls.car_family[car_family_id] = id
+        return id
 ```
