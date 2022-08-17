@@ -25,3 +25,17 @@ Stephen Gilbert
 
 - Em linguagens de visibilidade explícita, utilizamos a palavra chave public.
 
+#### Protegido
+
+Os alunos, no entanto, não podem simplesmente entrar e pegar um refrigerante na minha geladeira, ela não é **pública**.
+Mas meus netos, que moram perto, não ligam para entrar e pegar o que quiserem na cozinha, na nossa **casa (pacote)**, minha geladeira é **protegida**.
+Stephen Gilbert
+
+- Atributos e métodos **protegidos** só podem ser acessados/modificados por membros do mesmo projeto.
+
+- Em Python, utilizamos ‘_’ como convenção para definir atributos “protegidos”, a ideia é apenas evitar acessos/re-escritas não-intencionais.
+
+- Em linguagens explícitas, definimos com protected.
+
+### Privado
+
