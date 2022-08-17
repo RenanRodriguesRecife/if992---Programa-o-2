@@ -101,3 +101,53 @@ r.area = 3.14
 - A área ainda está correta?
 
 - Quem deveria ser responsável por impedir isso?
+
+## Estático
+
+atributos e métodos
+
+### Atributo Estáticos
+
+Tal como podemos definir atributos dentro do **__init__** que serão inicializados quando um objeto for criado, também podemos definir atributos da própria classe, já inicializados
+
+```python
+class Person:
+    TITLES=('Dr','Mr','Mrs','Ms')
+```
+
+- Esses são acessados da mesma forma: person.TITLES
+
+- Todos os objetos da classe terão atributos de classe com o mesmo valor após a criação.
+
+- Atributos de classe podem também ser acessados pela classe, sem necessidade de instanciamento!
+    
+    - Person.TITLES
+
+- Atributos de classe são comumente utilizados para definir constantes da classe.
+
+- É importante ter cuidado! 
+    - Caso o atributo de classe seja de um tipo mutável, todos os objetos da classe serão afetados: person.TITLES.append('Sr')
+
+Mostrar **lp-exemplo-atributo-de-classe-problema.py**
+
+
+Tal como atributos, **métodos** também podem ser estáticos. Em Python, definimos métodos estáticos com o decorador **@staticmethod**. Esses métodos são chamados diretamente pela classe, não necessitando de objetos.
+É importante lembrar que apenas atributos estáticos poderão ser acessados.
+
+```python
+class Person:
+    	TITLES = [“Mr.”, “Mrs.”]
+@staticmethod
+def show_titles():
+	print(Person.TITLES)
+```
+
+Métodos estáticos são usados onde precisamos de computação sem necessidade de estado, é útil em funcionalidades de depuração, logging, testes, etc.
+
+```python
+class Person:
+    	CREATED_PERSONS = 0
+@staticmethod
+def count_person():
+	print(f”There are {Person.CREATED_PERSONS} people created.”)
+```
