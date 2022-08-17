@@ -39,3 +39,13 @@ Stephen Gilbert
 
 ### Privado
 
+Mas nem tudo na nossa família é protegido, meus netos sabem que não podem mexer na minha carteira, pegar meu cartão e comprar o que quiserem na Amazon, isso não é permitido.
+Minha carteira é **privada**, para acessar eles precisam realizar uma requisição.
+Stephen Gilbert
+
+- Atributos e métodos **privados** só podem ser acessados/modificados dentro do escopo do objeto que o contém.
+
+- Em Python, name mangling (‘__’) é utilizado por convenção para criar atributos “privados”, name mangling é popularmente **odiado** por ser obscuro.
+
+- Em linguagens explícitas, definimos com private.
+
