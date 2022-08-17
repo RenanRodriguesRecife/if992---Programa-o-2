@@ -34,3 +34,58 @@ class SingletonClass(object):
             cls.instance = super(SingletonClass, cls).__new__(cls)
         return cls.instance
 ```
+
+
+### Fachada
+
+Fachadas é uma classe que provém uma interface mais transparente e unificada para processos complexos, permitindo acesso mais simplificado a subsistemas
+
+#### Pontos positivos:
+
+- Isolar o código da complexidade do sistema;
+
+- Facilidade no processo de teste;
+
+#### Pontos negativos:
+
+- Mudanças nos métodos podem levar a mudanças na fachada;
+
+- Definição de uma fachada pode ser custoso
+
+#### Possíveis usos:
+
+- Prover interface simples a sistemas complexos
+
+- Divisão de sistemas grandes em camadas;
+
+
+
+```python
+class SocialSharing:
+    def shareURL(self, url):
+        facebookAPI.share(url)
+        twitterAPI.share(url)
+        instagramAPI.share(url)
+
+```
+
+### Flyweight
+
+
+
+#### Pontos positivos:
+
+
+
+
+#### Pontos negativos:
+
+
+
+
+#### Possíveis usos:
+
+
+```python
+
+```
