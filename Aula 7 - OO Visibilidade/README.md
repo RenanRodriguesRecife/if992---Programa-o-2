@@ -54,8 +54,8 @@ Stephen Gilbert
 ```python
 class Point:
     def __init__(self,x,y):
-        self.x
-        self.y
+        self.x = x
+        self.y = y
 
 class Rectangle:
     def __init__(self):
@@ -81,3 +81,23 @@ class Rectangle:
 ```
 
 - De maneira geral, devemos nos questionar, quem deve ser responsável por alterar os atributos **x** e **y** de Point?
+
+```python
+class Point:
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+
+class Rectangle:
+    def __init__(self):
+        self.p1 = Point(0,0)
+        self.p2 = Point(0,0)
+        self.area = abs(self.p1.x - self.p2.x) * abs(self.p1.y - self.p2.y)
+
+r = Rectangle()
+r.area = 3.14
+```
+
+- A área ainda está correta?
+
+- Quem deveria ser responsável por impedir isso?
