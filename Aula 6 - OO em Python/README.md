@@ -219,6 +219,6 @@ profession - parâmetro
 
 em python:
 
-__init__ é o inicializador
+```__init__``` é o inicializador
 
-__new__ é o construtor (dentro do new tem o __init__)(mas ele não é muito utilizado)
+```__new__``` é o construtor (dentro do new tem o __init__)(mas ele não é muito utilizado)
