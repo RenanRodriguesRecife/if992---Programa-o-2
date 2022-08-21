@@ -225,6 +225,6 @@ em python:
 
 ### OBS: self
 
-O parâmetro self é uma referência à instância atual da classe e é usado para acessar variáveis ​​que pertencem à classe.
+O parâmetro **self** é uma referência à instância atual da classe e é usado para acessar variáveis que pertencem à classe.
 
-Ele não precisa ser nomeado self , você pode chamá-lo como quiser, mas deve ser o primeiro parâmetro de qualquer função na classe
+Ele não precisa ser nomeado **self** , você pode chamá-lo como quiser, mas deve ser o primeiro parâmetro de qualquer função na classe
