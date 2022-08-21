@@ -151,3 +151,16 @@ class Person:
 def count_person():
 	print(f”There are {Person.CREATED_PERSONS} people created.”)
 ```
+
+## Main em Python
+
+```python
+
+def main():
+    print("Hello World!")
+
+if __name__ == "__main__":
+    main()
+```
+
+isso evita que em uma importação use o main da classe
