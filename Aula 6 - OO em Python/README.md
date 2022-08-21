@@ -215,10 +215,16 @@ self.profession - atributo
 
 profession - parâmetro
 
-## OBS: __new__
+### OBS: __new__
 
 em python:
 
 ```__init__``` é o inicializador
 
 ```__new__``` é o construtor (dentro do new tem o __init__)(mas ele não é muito utilizado)
+
+### OBS: self
+
+O parâmetro self é uma referência à instância atual da classe e é usado para acessar variáveis ​​que pertencem à classe.
+
+Ele não precisa ser nomeado self , você pode chamá-lo como quiser, mas deve ser o primeiro parâmetro de qualquer função na classe
