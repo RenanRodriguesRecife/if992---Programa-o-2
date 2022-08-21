@@ -8,7 +8,7 @@ O padrão Singleton garante que apenas uma instância de uma classe seja criada 
 
 #### Pontos positivos:
 
-- Inicialização cara;
+- Inicialização cara; (Quanto tem uma classe muito grande pode usar um singleton para pré carregar)
 
 - Uso raro;
 
@@ -26,6 +26,10 @@ O padrão Singleton garante que apenas uma instância de uma classe seja criada 
 - Classe de logging;
 
 - Gerenciamento de conexão para recurso limitado;
+
+- Quando você tem duas pessoas que estão editando o mesmo arquivo e salvam ao mesmo tempo.
+
+- Impede que uma compra seja realizada duas vezes
 
 ```python
 class SingletonClass(object):
