@@ -12,6 +12,8 @@ OOP tem como um de seus conceitos principais o encapsulamento. A ideia de agrupa
 
 - Surgem então, as visibilidades para definirmos em que escopos atributos e propriedades serão acessadas.
 
+- Visibilidade em OO não é usado para proteger o programa, ela é usado apenas para garantir a proteção do código para os programadores que estão trabalhando entre si. Para proteger o código existem outras técnicas. 
+
 #### Publico
 
 Meus alunos sabem que eu moro na praia, se estivermos em um dia quente, eles sabem que podem bater na minha porta e eu oferecerei um refrigerante. Eu não moro em um condomínio fechado, logo qualquer um pode aparecer, minha porta é **pública**.
@@ -151,6 +153,8 @@ class Person:
 def count_person():
 	print(f”There are {Person.CREATED_PERSONS} people created.”)
 ```
+
+obs: (atributos estáticos) Se você redefinir o valor o atributo se torna atributo de instãncia (deixa de ser estático)(para mudar o valor de atributo estático em python tem que usar append)
 
 ## Main em Python
 
