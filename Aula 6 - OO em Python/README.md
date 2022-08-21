@@ -188,14 +188,14 @@ class Smith:
             self.profession = profession
 
 ```
-antes de __init__
+**antes de __init__**
 
 surname - atributo de classe
 
 profession - atributo de classe
 
 
-em __init__ 
+**em __init__ **
 
 name - parâmetro
 
@@ -203,7 +203,7 @@ profession - parâmetro
 
 
 
-depois de __init__
+**depois de __init__**
 
 self.name - atributo
 
@@ -214,3 +214,11 @@ profession - atributo de classe
 self.profession - atributo
 
 profession - parâmetro
+
+## OBS: __new__
+
+em python:
+
+__init__ é o inicializador
+
+__new__ é o construtor (dentro do new tem o __init__)(mas ele não é muito utilizado)
