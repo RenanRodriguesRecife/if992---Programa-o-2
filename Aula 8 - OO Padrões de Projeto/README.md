@@ -77,6 +77,8 @@ class SocialSharing:
 
 Flyweight é um padrão de projetos que visa reduzir a quantidade de objetos necessários para um programa. Um objeto flyweight é criado que é compartilhado em múltiplos contextos.
 
+Lembra um pouco o singleton. Mas não limita o número de instância e sim reutiliza as instâncias criadas. Evita re-instanciar melhorando a performance e a memória ram. (deixa o código mais complicado mas vale a pena). 
+
 #### Pontos positivos:
 
 - Uso reduzido de RAM
