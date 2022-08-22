@@ -221,3 +221,19 @@ fulano = Cliente( )
 contaDoFulano = Conta( fulano )
 
 ```
+
+### Composição na UML
+
+Representamos o relacionamento de **composição** através de uma seta com um losango preenchido.
+
+```python
+class Historico:
+	def __init__(self):
+		self.data_abertura = “ ”
+		self.transacoes = [ ]
+		
+class Conta:
+	def __init__(self):
+		self.cliente = “ ”
+		self.historico = Historico( )
+```
