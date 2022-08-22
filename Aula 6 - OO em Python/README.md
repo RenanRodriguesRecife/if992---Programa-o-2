@@ -215,6 +215,12 @@ self.profession - atributo
 
 profession - parâmetro
 
+#### OBS: atributos de classe (atributos estáticos)
+
+no diagrama de classes os métodos ou atributos sublinhados são atributos estáticos- são atributos e métodos que não pertence ao objeto e sim a classe.
+
+<img src=".assets/atrbclasse.jpg">
+
 ### OBS: __new__
 
 em python:
