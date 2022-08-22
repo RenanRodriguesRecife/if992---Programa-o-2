@@ -219,7 +219,7 @@ profession - parâmetro
 
 no diagrama de classes os métodos ou atributos sublinhados são atributos estáticos- são atributos e métodos que não pertence ao objeto e sim a classe.
 
-<img src=".assets/atrbclasse.jpg">
+<img src=".assets/atrbclasse.JPG">
 
 ### OBS: __new__
 
