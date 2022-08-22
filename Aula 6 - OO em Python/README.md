@@ -234,3 +234,31 @@ em python:
 O parâmetro **self** é uma referência à instância atual da classe e é usado para acessar variáveis que pertencem à classe.
 
 Ele não precisa ser nomeado **self** , você pode chamá-lo como quiser, mas deve ser o primeiro parâmetro de qualquer função na classe
+
+## Controle de Acesso
+
+Em python para criar controle de acesso 
+Existe declaradores
+
+Ex:
+
+```python
+
+def __init__(self,name,surname):
+self.__name = name #(simula o atributo privado)
+self.surname = surname
+
+@property
+def name(self):
+	print(“Entrou no getter”)
+	return self.name
+
+
+#name.setter
+def name(self, name):
+	print(“Entrou no setter”)
+	self.__name = name
+
+```
+você pode criar declaradores personalizados 
+
