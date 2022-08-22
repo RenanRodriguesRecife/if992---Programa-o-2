@@ -168,3 +168,20 @@ if __name__ == "__main__":
 ```
 
 isso evita que em uma importação use o main da classe
+
+
+# Relacionamentos UML
+
+- **Herança:** significa que A é um B
+
+Por exemplo: Poupanca é uma Conta
+
+– **Agregação:** significa que A tem um B
+
+Num sentido mais fraco que na composição.
+Por exemplo, Conta tem um Cliente
+
+– **Composição:** significa que A tem um B
+
+Num sentido mais forte que na agregação.
+Por exemplo, Conta tem um Historico
