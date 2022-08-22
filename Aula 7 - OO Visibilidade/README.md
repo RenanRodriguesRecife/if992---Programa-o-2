@@ -186,7 +186,7 @@ Por exemplo, Conta tem um Cliente
 Num sentido mais forte que na agregação.
 Por exemplo, Conta tem um Historico
 
-## Herança na UML
+### Herança na UML
 
 Representamos o relacionamento de **herança** atravésde uma seta com um triângulo vazado.
 
@@ -200,4 +200,24 @@ class Poupanca(Conta):
 	def __init__(self):
 		Conta.__init__(self)
 		self.variacao = 1
+```
+
+### Agregação na UML
+
+Representamos o relacionamento de **agregação** através de uma seta com um losango vazado.
+
+```python 
+class Cliente:
+	def __init__(self):
+		self.nome = “ “
+		self.cpf = “ ”
+
+class Conta:
+	def __init__(self, cli):
+		self.cliente = cli
+		self.numero = 0
+		
+fulano = Cliente( )
+contaDoFulano = Conta( fulano )
+
 ```
