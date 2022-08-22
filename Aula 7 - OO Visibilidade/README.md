@@ -185,3 +185,19 @@ Por exemplo, Conta tem um Cliente
 
 Num sentido mais forte que na agregação.
 Por exemplo, Conta tem um Historico
+
+## Herança na UML
+
+Representamos o relacionamento de **herança** atravésde uma seta com um triângulo vazado.
+
+```python
+class Conta:
+	def __init__(self):
+		self.cliente = “ ”
+		self.numero = 0
+	
+class Poupanca(Conta):
+	def __init__(self):
+		Conta.__init__(self)
+		self.variacao = 1
+```
