@@ -172,7 +172,7 @@ isso evita que em uma importação use o main da classe
 
 # Relacionamentos UML
 
-- **Herança:** significa que A é um B
+– **Herança:** significa que A é um B
 
 Por exemplo: Poupanca é uma Conta
 
