@@ -190,6 +190,8 @@ Por exemplo, Conta tem um Historico
 
 Representamos o relacionamento de **herança** atravésde uma seta com um triângulo vazado.
 
+<img src=".assets/heranca.jpg">
+
 ```python
 class Conta:
 	def __init__(self):
@@ -205,6 +207,8 @@ class Poupanca(Conta):
 ### Agregação na UML
 
 Representamos o relacionamento de **agregação** através de uma seta com um losango vazado.
+
+<img src=".assets/agragacao.jpg">
 
 ```python 
 class Cliente:
@@ -225,6 +229,8 @@ contaDoFulano = Conta( fulano )
 ### Composição na UML
 
 Representamos o relacionamento de **composição** através de uma seta com um losango preenchido.
+
+<img src=".assets/composicao.jpg">
 
 ```python
 class Historico:
