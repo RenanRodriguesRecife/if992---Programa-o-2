@@ -94,3 +94,6 @@ Proxies podem ser usadas como:
 
 # Memento
 
+O padrão de projeto memento permite que o estado anterior, ou parte do estado, de um objeto seja mantido, sem necessidade de revelar os detalhes de implementação.
+
+- Permite forma de realizar backups e restaurações de objetos.
