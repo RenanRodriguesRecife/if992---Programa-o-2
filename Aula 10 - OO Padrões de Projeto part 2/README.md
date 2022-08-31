@@ -18,7 +18,7 @@ O padrão **Iterator** nos permite percorrer containeres de dados sem preocupaç
 
 ```python
 class Iterable(object):
-    pass #Qualquer dado aqui
+    pass #Qualquer dado aqui (nesse caso trata-se de uma lista)
 
 
 class Container(object):
