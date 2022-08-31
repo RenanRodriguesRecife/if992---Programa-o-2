@@ -99,3 +99,34 @@ O padrão de projeto memento permite que o estado anterior, ou parte do estado, 
 - Permite forma de realizar backups e restaurações de objetos.
 
 <img src="./.assets/mementouml.JPG">
+
+```python
+
+class Memento(object):
+    def __init__(self,data):
+        self.data = data #Qualquer dado aqui
+
+class Originador(object):
+    def __init__(self,data):
+        self.data = data #Qualquer dado aqui
+
+    def save(self):
+        return Memento(self.data)
+    def undo(self,memento):
+        self.data = memento.data
+
+class Caretaker(object):
+    def __init__(self,originator):
+        self.mementos = list()
+        self.originator = originator
+    
+    def save(self):
+        self.mementos.append(self.originator.save())
+    
+    def undo(self):
+        if not len(self.mementos):
+            return None
+        memento = self.mementos.pop()
+        self.originator.undo(self,memento)
+
+```
