@@ -47,3 +47,50 @@ class Iterator(object):
         return value
 
 ```
+
+# Proxy
+
+O padrão Proxy permite a criação de uma estação de acesso ou um placeholder para controlar o acesso de um outro objeto.
+
+Nós dividiremos nossos objetos em Proxy e Real, o objeto Proxy será acessado e carregará o que precisarmos do objeto real **apenas quando necessário**.
+
+<img src="./.assets/proxyUml.JPG">
+
+```python
+
+class Subject(object):
+    def __init__(self):
+        pass #Qualquer dado aqui
+
+class RealSubject(Subject):
+    def operation(self):
+        pass
+
+class ProxySubject(Subject):
+    def __init__(self,*args,**Kwargs):
+        self.real = None
+
+    def operation(self):
+        if self.real is None:
+            self.real = RealSubect()
+        self.pre_operation()
+        self.real.operation()
+        self.post_operation()
+
+    def pre_operation(self):
+        pass
+
+    def post_operation(self):
+        pass
+```
+
+Proxies podem ser usadas como:
+
+- Proteção: controlando acesso e permitindo visibilidade apenas de atributos e métodos que são necessários para o cliente;
+
+- Referências: permitindo acessos sofisticados, como contagem de referências a determinado objeto;
+
+- Velocidade: atrasando a criação e inicialização de objetos caros, criando sob demanda.
+
+# Memento
+
