@@ -98,7 +98,7 @@ O padrão de projeto memento permite que o estado anterior, ou parte do estado, 
 
 - Permite forma de realizar backups e restaurações de objetos.
 
-<img src="./.assets/mementouml.JPG">
+<img src="./.assets/memento uml.JPG">
 
 ```python
 
