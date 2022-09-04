@@ -52,9 +52,40 @@ class Iterator(object):
 
 O padrão Proxy permite a criação de uma estação de acesso ou um placeholder para controlar o acesso de um outro objeto.
 
-Nós dividiremos nossos objetos em Proxy e Real, o objeto Proxy será acessado e carregará o que precisarmos do objeto real **apenas quando necessário**.
+Nós dividiremos nossos objetos em Proxy e Real(o objeto final que você quer usar), o objeto Proxy será acessado e carregará o que precisarmos do objeto real **apenas quando necessário**. (pode escolher como e quando repassar chamadas de métodos para o objeto real).
+
+O Proxy pode executar ações antes e depois das chamadas dos métodos do objeto real.
+
+O Proxy é algo que fica no meio do caminho.
+
+
+### Proxies podem ser usadas como:
+
+- Proteção: controlando acesso e permitindo visibilidade apenas de atributos e métodos que são necessários para o cliente;
+
+- Referências: permitindo acessos sofisticados, como contagem de referências a determinado objeto;
+
+- Velocidade: atrasando a criação e inicialização de objetos caros, criando sob demanda.(lazy instantiation e lazy evaluation)
+
+- logs, cache, distribuição de serviços... (faz com que o objeto real fique enchuto dessas coisas e só ter a regra de negócio mesmo)
+
+### Pontos Positivos
+
+- O código cliente nem precisa saber se está ou não usando um Proxy (ele finge ser o objeto real)
+
+- Você pode adicionar novos Proxies sem mudar código já testado (OCP)
+
+- O Proxy funciona mesmo se o objeto real não estiver operacional ou proto para uso
+
+- Você pode controlar o ciclo de vida de objetos reais dentro do proxy
+
+### Pontos Negativos
+
+- Introduz mais classes ao sistema isso o torna mais complexo
 
 <img src="./.assets/proxyUml.JPG">
+
+O objeto Proxy tem tudo o que o objeto real tem (ele pode se passar do objeto real). A direfença é que o Proxy tem uma referencia ao objeto real. O objeto Proxy pode executar qualquer tarefa antes ou depois da chamada mas em algum momento ele vai chamar o Objeto real. (No caso de cache ele nem precisa chamar a referencia do objeto real caso já tenha os dados que ele que no Proxy)
 
 ```python
 
@@ -84,13 +115,15 @@ class ProxySubject(Subject):
         pass
 ```
 
-Proxies podem ser usadas como:
+Obs: Proxy tem algumas variações (proxy virtual, proxy remoto, proxy de proteção, proxy inteligente...)(não muda nada na estrutura mas só na sua inteção).
 
-- Proteção: controlando acesso e permitindo visibilidade apenas de atributos e métodos que são necessários para o cliente;
+- Virtual: Controla acesso a recursos que podem ser caros para criação ou utilização
 
-- Referências: permitindo acessos sofisticados, como contagem de referências a determinado objeto;
+- Remoto: Controla acesso a recursos que estão em serviços remoto. (fora da base de código)
 
-- Velocidade: atrasando a criação e inicialização de objetos caros, criando sob demanda.
+- Proteção: Controla acesso a recursos que possam necessitar autenticação ou permissão
+
+- Inteligente: Além de controlar acesso ao objeto real, também executa tarefas adicionais para saber quando e como executar determinadas ações.
 
 # Memento
 
@@ -98,7 +131,7 @@ O padrão de projeto memento permite que o estado anterior, ou parte do estado, 
 
 - Permite forma de realizar backups e restaurações de objetos.
 
-<img src="./.assets/memento uml.JPG">
+<img src="./.assets/mementouml.JPG">
 
 ```python
 
