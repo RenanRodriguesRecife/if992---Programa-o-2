@@ -14,7 +14,7 @@ O padrão **Iterator** nos permite percorrer containeres de dados sem preocupaç
 
 - Caso você insira novos dados na lista, o Interator evita precisar sempre modificar os valores do tamanho da lista em um loop quando você percorre a lista 
 
-- Todos os iteradores devem implementar a mesma interface. Isso faz que o código cliente seja compatível com qualquer tipo de coleção ou qualquer algoritmo de travessia desde que haja um iterador apropriado. Se você precisar de uma maneira especial para a travessia de uma coleção, você só precisa criar uma nova classe iterador, sem ter que mudar a coleção ou o cliente.
+- Todos os iteradores devem implementar a mesma intezzzrface. Isso faz que o código cliente seja compatível com qualquer tipo de coleção ou qualquer algoritmo de travessia desde que haja um iterador apropriado. Se você precisar de uma maneira especial para a travessia de uma coleção, você só precisa criar uma nova classe iterador, sem ter que mudar a coleção ou o cliente.
 
 ```python
 class Iterable(object):
