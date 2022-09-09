@@ -1,12 +1,13 @@
-Exercícios
+# Exercícios
 
 Exercício 1
 
 Crie uma função anônima que some dois valores caso a soma seja menor ou igual a 0 e multiplica os dois valores caso contrário.
 
-```
+```python
 myFunc = lambda x, y: x + y if x + y <= 0 else x * y
 
+print(myFunc(3,2))
 print(myFunc(-3,2))
 ``` 
 
@@ -17,7 +18,7 @@ Data as listas L1 e L2 definidas abaixo, crie um código que calcule o quadrado 
 - L1 = [13,-2,5,82,95,3,-53,12,-21]
 - L2 = [3,73,22,31,5,67,-3,39,-87]
 
-```
+```python
 l1 = [13,-2,5,82,95,3,-53,12,-21]
 l2 = [3,73,22,31,5,67,-3,39,-87]
 
@@ -49,7 +50,7 @@ Teste com o seguinte exemplo:
 - nome = ['joão','maria','carlos','eduarda','eduardo']
 - notas = [10,10,6,8,7]
 
-```
+```python
 nome = ['joão','maria','carlos','eduarda','eduardo']
 notas = [10,10,6,8,7]
 
