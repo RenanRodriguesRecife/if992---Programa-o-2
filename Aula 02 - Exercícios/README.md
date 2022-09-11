@@ -1,6 +1,6 @@
 # Exercícios
 
-Exercício 1
+### Exercício 1
 
 Crie uma função anônima que some dois valores caso a soma seja menor ou igual a 0 e multiplica os dois valores caso contrário.
 
@@ -11,7 +11,7 @@ print(myFunc(3,2))
 print(myFunc(-3,2))
 ``` 
 
-Exercício 2
+### Exercício 2
 
 Data as listas L1 e L2 definidas abaixo, crie um código que calcule o quadrado da soma dos elementos paralelos de L1 e L2, mas apenas onde a soma desses elementos for impar.
 
@@ -40,7 +40,7 @@ ex2 = list(map(lambda x: (x[0] + x[1])**2 ,filter(lambda x: (x[0] + x[1])%2 ==1,
 print(ex2)    
 ```
 
-Exercício 3
+### Exercício 3
 
 Crie uma função segundo_lugar que receba dois argumentos: uma lista de notas, contendo todas as notas de uma turma e uma lista de nomes, contendo os nomes dos alunos.
 notas e nomes estão na mesma organização, ou seja, notas[0] representa a nota do aluno nomes[0]
