@@ -1,4 +1,4 @@
-```
+```pythons
 def lights(n):
   interruptores = [False] * n
 
