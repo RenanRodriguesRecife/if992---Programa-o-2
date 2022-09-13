@@ -86,4 +86,16 @@ def metodo_abstrato(self):
 <img>
 
 
+Voltando ao nosso **Mamífero**, podemos entender que todo mamífero amamenta de forma igual.
 
+- A implementação pode ser concreta, ou seja, definida para todas as subclasses
+
+- Mas Baleia, Humano e Morcego se movem e soam de formas diferentes. Logo, definimos esse métodos como abstratos, para que cada subclasse o implemente de forma devida.
+
+Uma classe **abstrata** pode definir atributos que devem ser implementados por suas subclasses.
+
+Esses atributos podem variar de tipo ou lógica de acesso/modificação para cada subclasse.
+
+E cada subclasse será responsável em definir sua lógica.
+
+17
