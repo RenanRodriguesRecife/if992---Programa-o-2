@@ -133,3 +133,16 @@ Em nosso **Mamífero**, talvez a lógica de como nosso atributos são definidos 
 Classes abstratas são classes, mas principalmente, são **superclasses**. Usadas para definir a base das classes que a estendem.
 
 No entanto, existem casos onde queremos definir não as propriedades completas de um objeto, mas apenas realizar um "contrato", garantindo que determinada funcionalidade ocorra como esperado.
+
+Por exemplo, podemos definir uma função que recebe um objeto que precisa ter um conjunto de métodos que iremos usar.
+
+A partir disso, nós criamos uma classe como **template** que terá suas definições de métodos vazias, para que outras classes as implementem como necessário.
+
+Chamamos essa classe ***template*** de uma **interface**. Dizemos que suas subclasses **implementam** uma interface.
+
+Tecnicamente, interfaces não são classes, mas as desenvolveremos como classes abstratas sem nenhum componente concreto.
+
+
+
+
+
