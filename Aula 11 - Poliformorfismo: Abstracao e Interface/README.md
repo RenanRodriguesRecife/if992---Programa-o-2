@@ -98,4 +98,38 @@ Esses atributos podem variar de tipo ou lógica de acesso/modificação para cad
 
 E cada subclasse será responsável em definir sua lógica.
 
-17
+Em Python criaremos atributos abstratos como métodos abstratos, junto com o decorador de propriedades.
+
+```python
+
+@property
+@abstractmethod
+def atributo_abstrato(self): #leitura
+	pass
+	
+@atributo_abstrato.setter
+@abstractmethod
+def atributo_abstrato(self, valor): #escrita
+	pass
+
+```
+
+<img>
+
+Em nosso **Mamífero**, talvez a lógica de como nosso atributos são definidos não seja clara.
+
+- Baleia pode receber um valor em Milhas/h e Humano em Quilômetro/h, para que ambos devem ser convertidos no **getter**
+
+- Não é um problema em Python, mas em outras linguagens, podemos ter atributos de tipos diferentes definidos nas subclasses
+
+# Interfaces
+
+```
+- Veja, nós só aceitamos as coisas assim.
+
+- Ok, vou escrever desse jeito
+```
+
+Classes abstratas são classes, mas principalmente, são **superclasses**. Usadas para definir a base das classes que a estendem.
+
+No entanto, existem casos onde queremos definir não as propriedades completas de um objeto, mas apenas realizar um "contrato", garantindo que determinada funcionalidade ocorra como esperado.
