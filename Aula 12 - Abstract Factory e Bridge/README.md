@@ -56,3 +56,5 @@ Pontos negativos:
 
 - **Dificuldade com novos tipos de objetos**: Fábricas definem o números de tipos possíveis para objetos, a adição de novos se torna trabalhosa.
 
+
+## Bridge
