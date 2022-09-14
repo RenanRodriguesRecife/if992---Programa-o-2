@@ -43,3 +43,16 @@ class ObjectFactory(object):
 # nas regras de negócio.
 
 ```
+
+Pontos positivos:
+
+- **Isolamento**: a criação de objetos concretos é encapsulada, isolando clientes das implementações;
+
+- **Facilidade na troca**: a Fábrica aparece apenas uma vez, quando é instanciada, tornando fácil a troca de fábrica concreta para mudança de configurações ou lógica;
+
+- **Consistência**: quando objetos são projetados para trabalharem juntos, é importante usar objetos de apenas uma família por vez.
+
+Pontos negativos:
+
+- **Dificuldade com novos tipos de objetos**: Fábricas definem o números de tipos possíveis para objetos, a adição de novos se torna trabalhosa.
+
