@@ -58,3 +58,17 @@ Pontos negativos:
 
 
 ## Bridge
+
+**Bridge** é um padrão de refatoração utilizado para desacoplar as interfaces das implementações. Criando uma ponte entre abstração e implementação
+
+Tome as classes por si próprias como a **abstração** e o que elas fazem como a **implementação**.
+O padrão se divide em quatro elementos:
+
+ - Abstraction Interface;
+
+ - Refined abstraction;
+
+ - Implementer interface;
+
+ - Concrete implementer;
+
