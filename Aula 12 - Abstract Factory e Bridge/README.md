@@ -24,3 +24,22 @@ class ObjectFactory(object):
     return None
 
 ```
+
+
+```python
+
+# Factory
+class ObjectFactory(object):
+	def getObject(self, type): # type define que classe vamos instanciar.
+		if type == something:
+			return ObjectClass1(arguments)
+		elif type == something_else:
+			return ObjectClass2(arguments)
+		return None
+
+# ObjectClass1  e ObjectClass2 representam
+# nossa família de classes. Ambas herdam de
+# uma mesma classe de forma sejam substituíveis
+# nas regras de negócio.
+
+```
