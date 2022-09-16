@@ -82,4 +82,55 @@ class EstudanteView:
 
 ```python
 
-class Estud
+class EstudanteController:
+    def __init__(self,model:Estudante,view:EstudanteView):
+        self.model = model
+        self.view = view
+
+    def atualizarView(self):
+        self.view.mostrarEstudante(self.model.nome,self.model.matricula)
+
+    def setNomeEstudante(self,nome):
+        self.model.nome = nome
+
+    def getNomeEstudante(self):
+        return self.model.nome
+
+    def setMatriculaEstudante(self,matricula):
+        self.model.matricula = matricula
+
+    def getMatriculaEstudante(self):
+        return self.model.matricula
+
+``` 
+
+### MVC
+
+- Além de definir a divisão nos três componentes, o padrão de projeto determina também as interações entre os componentes
+
+    - O **Modelo** gerencia os dados da aplicação, recebendo entradas pelo **Controlador**.
+
+    - A **Visualização** renderiza uma representação do **Modelo**.
+
+    - O **Controlador** responde às entradas de usuário e realiza interações com o **Modelo** de dados.
+
+## Demo
+
+```python
+def recebeEstudanteDaBD():
+    estudante = Estudante("Carlos",1)
+    return estudante
+
+if __name__=="__main__":
+    estudante = recebe estudanteDaBD()
+    view = EstudanteView()
+
+    controlador = EstudanteController(estudante,view)
+
+    controlador.atualizarView()
+
+    controlador.setNomeEstudante("João")
+
+    controlador.atualizarView()
+
+```
