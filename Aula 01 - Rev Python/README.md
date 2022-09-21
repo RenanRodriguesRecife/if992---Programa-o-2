@@ -1,8 +1,8 @@
-Algumas coisas básicas de Python
+3# Algumas coisas básicas de Python
 
 Nessa disciplina foi escolhido Python como linguagem porque em python tudo é classe (inclusive class)
 
-```
+```python
 print(type(1))
 '<type 'int'>'
 ```
@@ -10,7 +10,7 @@ print(type(1))
 Cada comando de python devem ser escritos em uma linha
 Obs: Em python pode pular uma linha usando '\'
 
-```
+```python
     varlor = \
     4300.6
 ```
@@ -19,7 +19,7 @@ String
 
 Com aspas triplas você define uma string com várias linhas
 
-```
+```python
 string = """Lorem ipsum dolor sit
             amet, consectetur
             adipiscing elit. Cras
@@ -30,7 +30,7 @@ string = """Lorem ipsum dolor sit
 
 Imprime o valor hash de objeto
 (lembrando em python tudo é objeto)
-```
+```python
 print(hash("aaa"))
 -145432768704
 ```
@@ -42,7 +42,7 @@ Syntax
 newlist = [expression 'for' item 'in' iterable 'if' condition == 'True']
 
 Ex:
-```
+```python
 lista = [i * i for in range(10) if i%2 == 0]
 ```
 
@@ -53,12 +53,12 @@ Syntax
 lambda arguments : expression
 
 Ex1:
-```
+```python
 x = lambda a : a + 10
 ```
 
 Ex2 (com condicional):
-```
+```python
 x = lambda x, y: x + y if x + y <=0 else x * y
 ```
 
@@ -72,7 +72,7 @@ Syntax
 map(function, iterables)
 
 Ex:
-```
+```python
 def myfunc(n):
     return len(n)
 
@@ -88,7 +88,7 @@ Syntax
 filter(function, iterable)
 
 Ex:
-```
+```python
 ages = [5, 12, 17, 18, 24, 32]
 
 def myFunc(x):
@@ -116,7 +116,7 @@ Syntax
 zip(iterator1, iterator2, iterator3...)
 
 EX:
-```
+```python
 a = ("John", "Charles", "Mike")
 b = ("Jenny", "Christy", "Monica")
 
@@ -130,7 +130,7 @@ print(tuple(x))
 type() - retorna o tipo de um objeto específico
 
 EX:
-```
+```python
     c = 33
 
     print(type(c))
@@ -141,7 +141,7 @@ EX:
 isinstance() - retorna True se específico objeto é de um tipo específico, se não retorna False. (se o parâmetro de tipo for uma tupla, esta função retornará True se o objeto for um dos tipo da tupla)
 
 Ex1: 
-```
+```python
 x = isinstance(5, int)
 
 print(x)
@@ -150,7 +150,7 @@ True
 ```
 
 Ex2: 
-```
+```python
 x = isinstance("Hello", (str, float, int, str, list, dict, tuple))
 
 print(x)
@@ -163,13 +163,13 @@ True
 help - usado para exibir a documentação de módulos, funções, classes, palavras-chave, etc.
 
 Ex:
-```
+```python
 help(str)
 ```
 
 dir - retorna uma lista dos atributos e métodos de qualquer objeto
 
 Ex:
-```
+```python
 dir(str)
 ```
