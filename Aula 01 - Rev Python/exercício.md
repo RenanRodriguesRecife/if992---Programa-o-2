@@ -2,13 +2,13 @@ Atividade
 
 Números Primos
 
-Escreva uma função em Python que recebe um
-valor inteiro n e retorne os n primeiros números primos, a partir de 1.
+Escreva uma função em Python que recebe um valor inteiro n e retorne os n primeiros números primos, a partir de 1.
 
 Números primos são números divisíveis apenas por 1 e eles mesmos.
 
+Resp:
 
-```
+```python
 def listPrimos(num):
 
     for n in range(num):
