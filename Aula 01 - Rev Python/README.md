@@ -1,4 +1,4 @@
-3# Algumas coisas básicas de Python
+# Algumas coisas básicas de Python
 
 Nessa disciplina foi escolhido Python como linguagem porque em python tudo é classe (inclusive class)
 
