@@ -8,6 +8,7 @@ print(type(1))
 ```
 
 Cada comando de python devem ser escritos em uma linha
+
 Obs: Em python pode pular uma linha usando '\'
 
 ```python
@@ -15,7 +16,7 @@ Obs: Em python pode pular uma linha usando '\'
     4300.6
 ```
 
-String
+## String
 
 Com aspas triplas você define uma string com várias linhas
 
@@ -35,22 +36,23 @@ print(hash("aaa"))
 -145432768704
 ```
 
-Compreensão de listas
+## Compreensão de listas
 
 Syntax
-
+```python
 newlist = [expression 'for' item 'in' iterable 'if' condition == 'True']
+```
 
 Ex:
 ```python
 lista = [i * i for in range(10) if i%2 == 0]
 ```
 
-Função anônima (lambda)
+## Função anônima (lambda)
 
 Syntax
 
-lambda arguments : expression
+**lambda arguments : expression** 
 
 Ex1:
 ```python
@@ -63,7 +65,9 @@ x = lambda x, y: x + y if x + y <=0 else x * y
 ```
 
 
-Algumas funções de Python
+## Algumas funções de Python
+
+### map 
 
 map() - função que executa uma especifica função para cada item em uma interação. Os itens são mandados para a função como parametro
 
@@ -80,6 +84,8 @@ x = map(myfunc,('apple','banana','cherry'))
 
 [5, 6, 6]
 ```
+
+### filter
 
 filter() - a função retorna um iterador onde os itens são filtrados por meio de uma função para testar se o item é aceito ou não.
 
@@ -106,6 +112,8 @@ for x in adults:
 24
 32
 ```
+
+### zip
 
 zip() - retorna um objeto zip, que é um iterador de tuplas onde o primeiro item em cada iterador passado é emparelhado e, em seguida, o segundo item em cada iterador passado é emparelhado etc.
 
@@ -158,7 +166,7 @@ print(x)
 True
 ```
 
-+ Algumas funções de Python
+### + Algumas funções de Python
 
 help - usado para exibir a documentação de módulos, funções, classes, palavras-chave, etc.
 
