@@ -68,3 +68,53 @@ class ObjectFactory(object):
 
 ## Pacotes
 
+tal como podemos organizar classes e função em um módulo, também podemos organizar módulos em uma **estrutura de arquivos**
+
+Há apenas dois requisitos para transformar nossos módulos em um pacote (ou vários pacotes).
+    
+    - Um diretório onde nossos módulos existam.
+
+    - Um arquivo chamado __init__.py no diretório
+
+
+O nome do diretório se torna o ***namespace*** do nosso pacote e a partir dele conseguimos acessar os módulos.
+
+>> package
+    >> __init__.py
+    >> module1.py
+    >> module2.py
+
+Agora podemos acessar **module1** e **module2** usando:
+
+**from** package **import** module1, module2
+
+É possível também aninhar pacotes. Acessamos **subpack** por meio de:
+
+**from** package.subpack **import** module2
+
+>> package
+    >> __init__.py
+    >> module1.py
+    >> subpack
+        >> __init__.py
+        >> module2.py
+
+O arquivo __init__.py é interpretado por Python de maneira a criar o namespace e permitir acesso aos conteúdos internos do diretório.
+
+Apesar disso, é importante entender que o arquivo __init__.py é um script python como qualquer outro, e podemos utilizá-lo para configurações, proteção de visibilidade ou facilidade de acesso.
+
+Um exemplo comum é importar o módulos dentro do próprio __init__.py, permitindo acessá-los por meio do ***namespace*** do pacote:
+
+
+```python
+#__init__.p
+from.import module1
+#main.py
+import package
+package.module1
+
+>> package
+    >> __init__.py
+    >> module1.py
+```
+
