@@ -12,7 +12,7 @@ Nesse momento pode ser uma boa ideia organizar o projeto, dividindo-o em vários
 
 - Por exemplo: caso seu projeto possua um backend com DB, uma camada de lógica de negócios, e uma interface gráfica de usuário, pode ser benéfico separar as três camadas.
 
-<img src="./.assets/div.jpg">
+<img src="/.assets/div.jpg">
 
 - **Módulos** são pedaços de código (modulares) que podem ser inseridos e chamados em qualquer algoritmo.
 
