@@ -76,7 +76,7 @@ class EstudanteView:
 
 - Comumente a reação envolve a chamada de métodos dos modelos.
 
-<img src="/.assets/controler.jpg">
+<img src="/.assets/controller.jpg">
 
 ## Controler
 
