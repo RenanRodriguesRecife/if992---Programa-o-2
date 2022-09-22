@@ -43,6 +43,7 @@ class ObjectFactory(object):
 ```
 
 - O **nome** do arquivo definirá o **namespace** do módulo, pelo qual importaremos e acessaremos seu conteúdo.
+   
     - para importarmos factory.py
         **import** factory
 
@@ -68,7 +69,7 @@ class ObjectFactory(object):
 
 ## Pacotes
 
-tal como podemos organizar classes e função em um módulo, também podemos organizar módulos em uma **estrutura de arquivos**
+Tal como podemos organizar classes e função em um módulo, também podemos organizar módulos em uma **estrutura de arquivos**
 
 Há apenas dois requisitos para transformar nossos módulos em um pacote (ou vários pacotes).
     
@@ -87,6 +88,13 @@ O nome do diretório se torna o ***namespace*** do nosso pacote e a partir dele 
 Agora podemos acessar **module1** e **module2** usando:
 
 **from** package **import** module1, module2
+
+
+>> package
+    >> __init__.py
+    >> module1.py
+    >> module2.py
+
 
 É possível também aninhar pacotes. Acessamos **subpack** por meio de:
 
@@ -118,3 +126,32 @@ package.module1
     >> module1.py
 ```
 
+>> package
+    >>__init__.py
+    >> module1.py
+
+# Docstring
+
+Documentação de código é comumente vista como um pensamento secundário.
+
+Conforme escrevemos nosso código, os métodos e classes podem parecer óbvios. Mas provavelmente pensaríamos diferente se forçados a entender o código de outra pessoa.
+
+Nós sabemos utilizar comentários (#) para explicar brevemente a intenção de determinado bloco de código.
+
+    - Comentários podem não servir para explicações longas.
+
+    - Para isso temos **docstrings**.
+
+Docstrings são strings normais, comumente escritas usando aspas triplas (''') para possibilitar a definição de string multilinhas.
+
+    - O que torna docstrings especial é sua localização no código.
+
+Docstrings aparecem após uma definição, seja de um módulo, classe, método ou função.
+
+    - Diversas ferramentas vasculham arquivos de código fonte buscando docstrings para conversão automática em documentos de documentação.
+
+Sintaxe compatível com Sphinx, pacote comumente utilizado para gerar documentação. Usado para documentação por: Google, Facebook e NASA
+
+- Documentação escrita assim pode ser mais fácil de manter do que um documento completamente separado
+
+- Possui a vantagem de também funcionar como comentário, ficando visível enquanto se olha o código fonte.
