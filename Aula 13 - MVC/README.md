@@ -8,7 +8,7 @@
 
 - MVC se relaciona, principalmente, as camadas de interação/UI. Portanto, ainda pode ser necessária criação de camadas de negócio, serviço ou acesso de dados, por exemplo.
 
-<img src=".assets/mvc.jpg">
+<img src="/.assets/mvc.jpg">
 
 ## Model
 
@@ -19,7 +19,7 @@
 - Gerencia diretamente os dados, regras e lógica da aplicação
 
 
-<img src=".assets/model.jpg">
+<img src="/.assets/model.jpg">
 
 ### Model
 
@@ -54,7 +54,7 @@ class Estudante:
 
 - É possível que várias **Visualizações** existam para um único **Modelo**.
 
-<img src=".assets/view.jpg">
+<img src="/.assets/view.jpg">
 
 ## View
 
@@ -76,7 +76,7 @@ class EstudanteView:
 
 - Comumente a reação envolve a chamada de métodos dos modelos.
 
-<img src=".assets/controler.jpg">
+<img src="/.assets/controler.jpg">
 
 ## Controler
 
