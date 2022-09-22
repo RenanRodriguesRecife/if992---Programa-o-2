@@ -80,32 +80,36 @@ Há apenas dois requisitos para transformar nossos módulos em um pacote (ou vá
 
 O nome do diretório se torna o ***namespace*** do nosso pacote e a partir dele conseguimos acessar os módulos.
 
+``` 
 >> package
     >> __init__.py
     >> module1.py
     >> module2.py
+```
 
 Agora podemos acessar **module1** e **module2** usando:
 
 **from** package **import** module1, module2
 
-
+```
 >> package
     >> __init__.py
     >> module1.py
     >> module2.py
-
+```
 
 É possível também aninhar pacotes. Acessamos **subpack** por meio de:
 
 **from** package.subpack **import** module2
 
+```
 >> package
     >> __init__.py
     >> module1.py
     >> subpack
         >> __init__.py
         >> module2.py
+```
 
 O arquivo __init__.py é interpretado por Python de maneira a criar o namespace e permitir acesso aos conteúdos internos do diretório.
 
@@ -125,11 +129,11 @@ package.module1
     >> __init__.py
     >> module1.py
 ```
-
+```
 >> package
     >>__init__.py
     >> module1.py
-
+```
 # Docstring
 
 Documentação de código é comumente vista como um pensamento secundário.
