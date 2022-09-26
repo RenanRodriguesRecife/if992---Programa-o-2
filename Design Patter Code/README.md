@@ -102,9 +102,34 @@ class Iterator(object):
 
 ## Proxy
 
+O padrão Proxy permite a criação de uma estação de acesso ou um placeholder para controlar o acesso de um outro objeto.
+
+Nós dividiremos nossos objetos em Proxy e Real(o objeto final que você quer usar), o objeto Proxy será acessado e carregará o que precisarmos do objeto real apenas quando necessário. (pode escolher como e quando repassar chamadas de métodos para o objeto real).
+
+O Proxy pode executar ações antes e depois das chamadas dos métodos do objeto real.
+
+O Proxy é algo que fica no meio do caminho.
+
+```python
+
+```
+
 ## Memento
 
+Permite forma de realizar backups e restaurações de objetos.
+
+```python
+
+```
 
 ## Abstract Factory
 
+```python
+
+```
+
 ## Bridge
+
+```python
+
+```
