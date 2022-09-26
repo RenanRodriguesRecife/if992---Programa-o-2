@@ -10,7 +10,7 @@ class SingletonClass(object):
       cls.instance = super(SingletonClass,cls).__new__(cls)
     return cls.instance
     
-  #adicione conteúdo que você quer implementar
+  #adicione conteúdo que você quer implementar da class
   
 #main
 if __name__ == '__main__':
@@ -34,6 +34,23 @@ class SocialSharing:
 
 ## Flyweight
 
+Flyweight é um padrão de projetos que visa reduzir a quantidade de objetos instanciados necessários para um programa. Um objeto flyweight é criado que é compartilhado em múltiplos contextos
+
+```python
+
+class ObjectoQualquerFlyweight:
+  obj_qualquer = {}
+  
+  def __new__(cls,id_atribute,atribute1):
+    try:
+      id = cls.obj_qualquer[id_atribute]
+    except KeyError:
+      id = object.__new__(cls)
+      cls.obj_qualquer[id_atribute] = id
+      
+  #adicione conteúdo que você quer implementar da class
+
+```
 
 ## Iterator 
 
