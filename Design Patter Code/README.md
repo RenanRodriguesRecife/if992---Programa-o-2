@@ -1,5 +1,3 @@
-# code
-
 ## Singleton
 
 ## Facade
