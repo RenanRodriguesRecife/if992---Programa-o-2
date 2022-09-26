@@ -124,7 +124,41 @@ Permite forma de realizar backups e restaurações de objetos.
 
 ## Abstract Factory
 
+O padrão Abstract Factory provê uma interface para a criação de Famílias de objetos relacioandos ou depedentes.
+
+revisar
 ```python
+# Interface
+class AbstractFactory(ABC):
+  @abstractmethod
+	def getObject(self, type):
+	  pass
+    
+# Factory
+class ObjectFactory(object):
+  def getObject(self, type):
+    if type == something:
+      return ObjectClass1(arguments)
+    elif type == something_else:
+      return ObjectClass2(arguments)
+    return None
+```
+
+```python
+
+# Factory
+class ObjectFactory(object):
+	def getObject(self, type): # type define que classe vamos instanciar.
+		if type == something:
+			return ObjectClass1(arguments)
+		elif type == something_else:
+			return ObjectClass2(arguments)
+		return None
+
+# ObjectClass1  e ObjectClass2 representam
+# nossa família de classes. Ambas herdam de
+# uma mesma classe de forma sejam substituíveis
+# nas regras de negócio.
 
 ```
 
