@@ -4,7 +4,7 @@
 
 O padrão **Abstract Factory** provê uma **interface** para a criação de Famílias de objetos relacioandos ou depedentes.
 
-<img>
+<img src="./.assets/abstractFactory.jpg">
 
 ```python
 
