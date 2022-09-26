@@ -48,7 +48,7 @@ class ClasseAbstrata(ABC):
 
 ```
 
-<img>
+<img src="mamifero1.jpg">
 
 Considere um **Mamífero**.
 
@@ -58,7 +58,7 @@ Como por exemplo, Baleia, Humano, Morcego, todos compartilham as característica
 
 Mas não é possível ter um objeto Mamífero **puro**.
 
-<img>
+<img src="mamifero2.jpg">
 
 Logo, **Mamífero** é uma classe **abstrata**!
 
@@ -83,7 +83,7 @@ def metodo_abstrato(self):
 
 ```
 
-<img>
+<img src="mamifero3.jpg">
 
 
 Voltando ao nosso **Mamífero**, podemos entender que todo mamífero amamenta de forma igual.
@@ -114,7 +114,7 @@ def atributo_abstrato(self, valor): #escrita
 
 ```
 
-<img>
+<img src="mamifero4.jpg">
 
 Em nosso **Mamífero**, talvez a lógica de como nosso atributos são definidos não seja clara.
 
