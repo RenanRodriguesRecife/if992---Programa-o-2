@@ -101,8 +101,9 @@ class CargoView:
 
 class FuncionarioController:
     def __init__(self, model: Funcionario, view: FuncionarioView):
-       	self.model = model
-       	self.view = view
+        self.model = model
+        self.view = view
+        
     def atualizarView(self):
         self.view.mostrarFuncionario(self.model.id,self.model.nome,self.model.dataC,self.model.diasFM,self.model.diasFA,self.model.Cargo)
 
