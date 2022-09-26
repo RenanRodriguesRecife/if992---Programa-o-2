@@ -93,7 +93,7 @@ O padrão se divide em quatro elementos:
 
 - A implementação lógica que uma Abstração Refinada utilizará.
 
-<img>
+<img src="./.assets/bridge.jpg">
 
 ```python
 
