@@ -130,6 +130,8 @@ Permite forma de realizar backups e restaurações de objetos.
 
 ## Bridge
 
+Bridge é um padrão de projeto estrutural que permite dividir uma classe grande ou um conjunto de classes intimamente relacionadas em duas hierarquias separadas — abstração e implementação — que podem ser desenvolvidas independentemente uma da outra.
+
 ```python
 
 ```
