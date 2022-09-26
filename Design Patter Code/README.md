@@ -47,7 +47,8 @@ class ObjectoQualquerFlyweight:
     except KeyError:
       id = object.__new__(cls)
       cls.obj_qualquer[id_atribute] = id
-      
+    return id
+    
   #adicione conteúdo que você quer implementar da class
 
 ```
