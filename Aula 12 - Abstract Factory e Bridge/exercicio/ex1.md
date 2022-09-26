@@ -7,3 +7,5 @@
 - Formas possuem também uma Cor. Cores podem ser **Vermelho**, **Verde** ou **Azul**. Possuem apenas um método onde sua cor é impressa na tela em texto.
 
 - Crie Fábricas para Cor e Forma.
+
+S
