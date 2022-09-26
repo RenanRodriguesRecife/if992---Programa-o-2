@@ -55,6 +55,51 @@ class ObjectoQualquerFlyweight:
 
 ## Iterator 
 
+O padrão Iterator nos permite percorrer containeres de dados sem preocupação com a estrutura dos mesmos.
+
+Possui 3 partes
+
+```
+Iterable - O dado individual
+
+Container - O tipo de estrutura (lista, arvore, dicionário...)
+
+Interator - Responsável por interagir com a estrutura (buscar elemento do lado,...)
+```
+
+Ex: usando uma lista
+
+```python
+
+class Iterable(object):
+    pass #Qualquer dado
+
+class Container(object):
+    def __init__(self):
+        self.data = list()
+
+    def __iter__(self):
+        return Iterator(self)
+
+    def get_ith(self,i):
+        if len(self.data) > i:
+            return self.data[i]
+        return None
+
+class Iterator(object):
+    def __init__(self,container):
+        self.container = container
+        self.current = 0
+
+    def __next__(self):
+        value = self.container.get_ith(self.current)
+        if value is None:
+            raise StopIteration
+        self.current+=1
+        return value
+
+```
+
 ## Proxy
 
 ## Memento
