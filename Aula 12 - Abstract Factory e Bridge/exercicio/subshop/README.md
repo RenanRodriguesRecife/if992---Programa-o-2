@@ -6,3 +6,9 @@ Uma loja de sanduíches permite que o cliente, ao pedir um **Sanduíche**, escol
 
 
 <img src="tabela.jpg">
+
+1) Implemente utilizando Bridge uma arquitetura em que um Sanduíche é definido por meio de uma escolha do usuário, em seguida é escolhida a proteína. Retorne o valor total da compra e as informações nutricionais totais.
+
+Após uma modificação no menu da empresa, agora é possível solicitar o novo **Sanduíche** vegetariano, que não possui escolha de proteína. No entanto, essa mudança quebra a coesão do sistema. 
+
+2) Utilizando Abstract Factory, atualize o sistema para que seja possível “fabricar” o sanduíche normal **ou** o sanduíche vegetariano.
