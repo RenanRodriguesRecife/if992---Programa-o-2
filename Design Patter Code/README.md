@@ -1,19 +1,19 @@
 # code
 
-Singleton
+## Singleton
 
-Facade
+## Facade
 
-Flyweight
-
-
-Iterator 
-
-Proxy
-
-Memento
+## Flyweight
 
 
-Abstract Factory
+## Iterator 
 
-Bridge
+## Proxy
+
+## Memento
+
+
+## Abstract Factory
+
+## Bridge
