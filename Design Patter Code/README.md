@@ -20,6 +20,18 @@ if __name__ == '__main__':
 
 ## Facade
 
+Fachadas é uma classe que provém uma interface mais transparente e unificada para processos complexos, permitindo acesso mais simplificado a subsistemas.
+
+```python
+
+class SocialSharing:
+  def shareURL(self,url):
+    facebookAPI.share(url)
+    twitterAPI.share(url)
+    instagramAPI.share(url)
+
+```
+
 ## Flyweight
 
 
