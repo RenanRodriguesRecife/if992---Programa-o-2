@@ -118,7 +118,48 @@ O Proxy é algo que fica no meio do caminho.
 
 Permite forma de realizar backups e restaurações de objetos.
 
+```
+Originator - o objeto central que será usado (pode ter qualquer nome)
+
+Memento - os objeto beckups
+
+Caretaker - Classe responsável por administrar quando salvar e desfazer
+```
+
 ```python
+		
+class Memento(object):
+	def __init__(self,data):
+		self.data = data #Qualquer dado
+		
+class Originator(object):
+	def __init__(self,data):
+		self.data = data #Qualquer dado aqui
+		
+	def save(self):
+		return Memento(self.data)
+	
+	def undo(self,memento):
+		self.data = memento.data
+		
+class Caretaker(object):
+	def __init__(self,originator):
+		self.mementos = list()
+		self.originator = originator
+	
+	def save(self):
+		self.mementos.append(self.originator.save())
+		
+	def undo(self):
+		if not len(self.mementos):
+			return None
+		
+		memento = self.mementos.pop()
+		
+		if len(self.mementos) == 0:
+            		return None
+			
+		self.originator.undo(self,memento)
 
 ```
 
