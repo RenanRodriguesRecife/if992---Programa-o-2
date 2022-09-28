@@ -234,7 +234,11 @@ class ObjectFactory(object):
 
 Bridge é um padrão de projeto estrutural que permite dividir uma classe grande ou um conjunto de classes intimamente relacionadas em duas hierarquias separadas — abstração e implementação — que podem ser desenvolvidas independentemente uma da outra.
 
+Problema: Quando se faz cominações de classes usando Hierarquina o número de classes combinadas tende a crescer de maneira geométrica
+
 <img src="./.assets/problem.jpg">
+
+Solução: A solução é criar uma **"ponte"** entre o elemento abstrato e o elemento implementador. O elemento Abstrato pode ter uma implementação
 
 <img src="./.assets/solution.jpg">
 
