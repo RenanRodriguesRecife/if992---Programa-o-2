@@ -234,6 +234,10 @@ class ObjectFactory(object):
 
 Bridge é um padrão de projeto estrutural que permite dividir uma classe grande ou um conjunto de classes intimamente relacionadas em duas hierarquias separadas — abstração e implementação — que podem ser desenvolvidas independentemente uma da outra.
 
+<img src="./.assets/problem.jpg">
+
+<img src="./.assets/solution.jpg">
+
 ```python
 
 ```
