@@ -112,6 +112,33 @@ O Proxy é algo que fica no meio do caminho.
 
 ```python
 
+class Subject(object): #Qualquer coisa
+	def __init__(self):
+		pass #Qualquer dado aqui
+
+class RealSubject(Subject):
+	def __init__(self,*args,**kwargs):
+		super().__init__(*args,**kwargs)
+		
+
+class ProxySubject(Galeria):
+	def __init__(self,subject,*args,**Kwargs):
+		self.real = subject
+
+	def operation(self): #operação pode ser qualquer método do Subject que você deseja mexer
+		if self.real is None:
+			self.real = RealSubject()
+
+		self.pre_operation()
+		self.real.operation()
+		self.post_operation()
+	
+	def pre_operation(self):
+		pass
+	def post_operation(self):
+		pass
+
+
 ```
 
 ## Memento
