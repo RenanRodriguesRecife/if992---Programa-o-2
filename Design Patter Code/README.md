@@ -243,5 +243,52 @@ Solução: A solução é criar uma **"ponte"** entre o elemento abstrato e o el
 <img src="./.assets/solution.jpg">
 
 ```python
+#Abstração
+from abc import ABC, abstractmethod
 
+#Interface
+class IAbstraction(ABC) 
+	@abstractmethod
+	def method(self): 
+		pass
+		
+#RefinedAbstraction
+class RefinedAbstractionA(IAbstraction):
+	def __init__(self,implementer): #leitura
+		self.implementer = implementer
+	
+	def method(self, type):
+		self.implementer.method()
+
+```
+
+```python
+#Implementer
+
+# Interface
+class IImplementer(ABC):
+	@abstractmethod
+	def method(self):
+		pass
+
+class ImplementerA(IImplementer):
+	def method(self, type):
+		"The method implementation"
+
+class ImplementerB(IImplementer):
+	def method(self, type):
+		"The method implementation"
+
+```
+```python
+
+if __name__== "__main__":
+	ImplA = ImplementerA()
+	ImplB = ImplementerB()
+	
+	A1 = IAbstraction(ImplA)
+	A2 = IAbstraction(ImplB)
+	
+	A1.method()
+	A2.method()
 ```
