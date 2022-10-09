@@ -147,5 +147,7 @@ if __name__ == “__main__”:
 ```
 
 ```
-bridge é muito confundido com adapter a diferença é que é usado muito em refatoração
+Bridge é muito confundido com adapter a diferença é que Adapter é usado muito em refatoração.
+
+Um padrão Bridge só pode ser implementado antes que o aplicativo seja projetado (Permite que uma abstração e implementação sejam alteradas independentemente). Enquanto um padrão Adapter possibilita que classes incompatíveis trabalhem juntas.
 ```
