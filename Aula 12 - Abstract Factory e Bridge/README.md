@@ -145,3 +145,7 @@ if __name__ == “__main__”:
 	B = AbstractionB()
 	B.method()
 ```
+
+```
+bridge é muito confundido com adapter a diferença é que é usado muito em refatoração
+```
