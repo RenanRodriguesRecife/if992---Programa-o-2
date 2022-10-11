@@ -135,6 +135,8 @@ if __name__ == '__main__':
 
 <img src="exer3.jpg">
 
+Nesse caso Receita tem uma lista de Ingredientes
+
 ```python
 
 class Ingrediente:
