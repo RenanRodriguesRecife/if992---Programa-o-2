@@ -13,7 +13,7 @@ itálicos - Quer dizer que o atributo ou o método é abstrato
 <img src="exer1.jpg">
 
 
-tensor2d
+tensor2d (curiosidade tensor é uma matrix)(tensor2d é uma matrix bidimensional)
 
 ```python
 
