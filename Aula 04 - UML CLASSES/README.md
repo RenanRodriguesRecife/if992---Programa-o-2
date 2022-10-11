@@ -61,6 +61,14 @@ Operações: correspondem às ações que os objetos de uma classe sabem realiza
 
 - somar (valor1, valor2): Float
 
+OBS: MUITO IMPORTANTE
+
+```
+sublinhados - Quer dizer que o atributo ou o método é estático
+
+itálicos - Quer dizer que o atributo ou o método é abstrato
+```
+
 
 ### Relacionamentos
 
