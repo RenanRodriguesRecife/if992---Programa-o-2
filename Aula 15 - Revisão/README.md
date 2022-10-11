@@ -137,7 +137,46 @@ if __name__ == '__main__':
 
 ```python
 
-fazer
+class Ingrediente:
+    def __init__(self,nome,tipo,quantidade):
+        self.nome = nome
+        self.tipo = tipo
+        self.quantidade = quantidade
+
+class Receita:
+    def __init__(self,medida_unidade,medida_volume):
+        self.medida_unidade = medida_unidade
+        self.medida_volume = medida_volume
+        self.ingredientes = []
+
+    def add_ingrediente(self,ingrediente: Ingrediente):
+        self.ingredientes.append(ingrediente)
+
+    def get_ingrediente(self,indice):
+        if indice < len(self.ingredientes) and indice >= 0:
+            return self.ingredientes[indice]
+
+    def imprimir_ingrediente(self):
+        for i in self.ingredientes:
+            print(i.nome)
+            print(i.tipo)
+            print(i.quantidade)
+            print('\n')
+
+if __name__ == '__main__':
+    i1 = Ingrediente("oregano","tempero","20g")
+    i2 = Ingrediente("queijo","laticínio","200ml")
+    i3 = Ingrediente("massa","massa","500g")
+
+    r = Receita("1 proção","500ml")
+    r.add_ingrediente(i1)
+    r.add_ingrediente(i2)
+    r.add_ingrediente(i3)
+
+    test = r.get_ingrediente(2)
+    print(test.nome)
+
+    r.imprimir_ingrediente()
 
 ```
 
