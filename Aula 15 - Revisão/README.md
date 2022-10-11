@@ -14,7 +14,8 @@ itálicos - Quer dizer que o atributo ou o método é abstrato
 
 
 tensor2d
-python```
+
+```python
 
 class Tensor2D():
   def __init__(self, shape: list, values: list):
@@ -44,8 +45,15 @@ if __name__ == '__main__':
   print()
   for i in range(t0.shape[0]):
     print(t0.values[i])
+
 ```
 
+StringPrint
+
+```python
+
+fazer
+```
 
 
 **Diagrama de Classe**
