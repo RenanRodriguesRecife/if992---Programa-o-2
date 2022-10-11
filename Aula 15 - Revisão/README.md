@@ -51,8 +51,42 @@ if __name__ == '__main__':
 StringPrint
 
 ```python
+from abc import abstractmethod, ABC
+class StringPrint(ABC):
+  def __init__(self, s: str):
+    self.s = s
 
-fazer
+  @abstractmethod
+  def print(self):
+    pass
+
+class TitleStringPrint(StringPrint):
+  def print(self):
+    nova_s = ''
+    last_char = ''
+    for i in range(len(self.s)):
+      if i == 0 or last_char == ' ':
+        nova_s+=self.s[i].upper()
+      else:
+        nova_s+=self.s[i]
+      last_char = self.s[i]
+    print(nova_s)
+
+class CapsStringPrint(StringPrint):
+  def print(self):
+    nova_s = ''
+    for i in range(len(self.s)):
+      nova_s+=self.s[i].upper()
+    print(nova_s)
+
+if __name__ == '__main__':
+  TSP = TitleStringPrint("teste de uma string")
+  TSP.print()
+  CSP = CapsStringPrint("teste de uma string")
+  CSP.print()
+  SP = StringPrint("teste de uma string")
+  SP.print()
+
 ```
 
 
@@ -62,7 +96,50 @@ lembrar que associações informam atributos que podem não estar presentes em u
 
 <img src="exer2.jpg">
 
+Nesse caso Bingo tem uma lista de cartelas
+
+```python
+
+from random import randint
+class Bingo:
+  def __init__(self):
+    self.cartelas = []
+    self.valores_possiveis = list(range(60))
+
+  def gerar_numero(self):
+    idx = randint(0, len(self.valores_possiveis)-1)
+    valor = self.valores_possiveis[idx]
+    del self.valores_possiveis[idx]
+    return valor
+
+class Cartela:
+  def __init__(self):
+    self.numeros = []
+    valores_possiveis = list(range(60))
+    for i in range(20):
+      idx = randint(0, len(valores_possiveis)-1)
+      self.numeros.append(valores_possiveis[idx])
+      del valores_possiveis[idx]
+
+  def checar_numero(self, numero):
+    idx = self.numeros.find(numero)
+    if idx >=0:
+      del self.numeros[idx]
+
+if __name__ == '__main__':
+  b = Bingo()
+  for i in range(10):
+    b.cartelas.append(Cartela())
+
+```
+
 <img src="exer3.jpg">
+
+```python
+
+fazer
+
+```
 
 <img src="herancaInter.jpg">
 
