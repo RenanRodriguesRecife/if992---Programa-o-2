@@ -149,10 +149,21 @@ Métodos estáticos são usados onde precisamos de computação sem necessidade 
 ```python
 class Person:
     	CREATED_PERSONS = 0
+	
 @staticmethod
 def count_person():
 	print(f”There are {Person.CREATED_PERSONS} people created.”)
 ```
+Ex2:
+```python
+
+@staticmethold
+def printar()
+	pass
+
+```
+obs: Em métodos estáticos não usa self como parâmetro
+
 
 obs: (atributos estáticos) Se você redefinir o valor o atributo se torna atributo de instãncia (deixa de ser estático)(para mudar o valor de atributo estático em python tem que usar append)
 
