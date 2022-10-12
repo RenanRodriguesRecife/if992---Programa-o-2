@@ -177,6 +177,9 @@ Objetos podem ser nomeados ou anônimos.
 
 <img src=".assets/anonome.PNG">
 
+
+No Diagrama sequencia a ordem horizontal é inrelevante. a ordem de execução está na vertical
+
 A ordem horizontal não possui significado. Mas geralmente segue (esquerda->direita): atores, fronteira, controle, entidade.
 
 <img src=".assets/basico.JPG">
