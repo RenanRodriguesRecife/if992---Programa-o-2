@@ -6,9 +6,9 @@ Lembre-se:
 
 manter-se atento a 
 
-sublinhados - Quer dizer que o atributo ou o método é estático
+  sublinhados - Quer dizer que o atributo ou o método é estático
 
-itálicos - Quer dizer que o atributo ou o método é abstrato
+  itálicos - Quer dizer que o atributo ou o método é abstrato
 
 <img src="exer1.jpg">
 
@@ -47,6 +47,18 @@ if __name__ == '__main__':
     print(t0.values[i])
 
 ```
+
+obs: métodos staticos - não usa self como parametro inicial do método
+```python
+@staticmethold
+def printar()
+	pass
+
+
+```
+
+
+
 
 StringPrint
 
@@ -88,6 +100,10 @@ if __name__ == '__main__':
   SP.print()
 
 ```
+
+toda interface é uma classe abstrata
+
+Uma interface só pode ter métodos de interface (apesar de python deixar criar interfaces com métodos concretos)
 
 
 **Diagrama de Classe**
