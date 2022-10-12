@@ -274,3 +274,12 @@ Por fim, o modelador (nós) deve verificar a consistência do diagrama resultant
 -   As mensagens recebidas pelos objetos são consistentes com suas responsabilidades?
 
 Mensagens enviadas por atores não indicam operações, geralmente são rotuladas com a informação solicitada. Ex.: item pedido, id e senha.
+
+
+
+
+
+
+================
+pesquisar
+prom servidor
