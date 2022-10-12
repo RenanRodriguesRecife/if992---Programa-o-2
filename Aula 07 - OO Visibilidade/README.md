@@ -139,9 +139,10 @@ Tal como atributos, **métodos** também podem ser estáticos. Em Python, defini
 ```python
 class Person:
     	TITLES = [“Mr.”, “Mrs.”]
-@staticmethod
-def show_titles():
-	print(Person.TITLES)
+
+	@staticmethod
+	def show_titles():
+		print(Person.TITLES)
 ```
 
 Métodos estáticos são usados onde precisamos de computação sem necessidade de estado, é útil em funcionalidades de depuração, logging, testes, etc.
@@ -150,9 +151,9 @@ Métodos estáticos são usados onde precisamos de computação sem necessidade 
 class Person:
     	CREATED_PERSONS = 0
 	
-@staticmethod
-def count_person():
-	print(f”There are {Person.CREATED_PERSONS} people created.”)
+	@staticmethod
+	def count_person():
+		print(f”There are {Person.CREATED_PERSONS} people created.”)
 ```
 Ex2:
 ```python
@@ -162,7 +163,7 @@ def printar()
 	pass
 
 ```
-obs: Em métodos estáticos não usa self como parâmetro
+obs: Em métodos estáticos não passa self como parametro na definição do método 
 
 
 obs: (atributos estáticos) Se você redefinir o valor o atributo se torna atributo de instãncia (deixa de ser estático)(para mudar o valor de atributo estático em python tem que usar append)
