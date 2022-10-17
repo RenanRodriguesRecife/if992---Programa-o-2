@@ -1,4 +1,4 @@
-``` 
+```python
 # Exercício 01
 
 myFunc = lambda x, y: x + y  if x + y <= 0 else x * y
