@@ -18,3 +18,8 @@ E instancie o seguinte veículo:
 4. Altere o diagrama de classes para incluir um padrão de projeto (entre os vistos durante a disciplina). (2,0)
 
 
+<img src="casoUso.JPG">
+
+<img src="casoClasse.JPG">
+
+<img src="casoSequencia.JPG">
